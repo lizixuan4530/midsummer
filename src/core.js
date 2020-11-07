@@ -205,7 +205,7 @@ export default function ButtonAppBar() {
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
-    justify="center"
+    justify="space-between"
     alignItems="center">
       {winterCake.map((item) => 
        <Grid item xs={6} sm={3}  >
@@ -230,7 +230,7 @@ export default function ButtonAppBar() {
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
-    justify="center"
+    justify="space-between"
     alignItems="center">
       {littleCake.map((item) => 
        <Grid item xs={6} sm={3}  >
@@ -260,7 +260,7 @@ export default function ButtonAppBar() {
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
-    justify="center"
+    justify="space-between"
     alignItems="center">
       {classicCake.map((item) => 
        <Grid item xs={6} sm={3}  >
