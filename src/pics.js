@@ -32,7 +32,7 @@ const picStyles = makeStyles((theme) => ({
     title: {
       flexGrow: 1,
       color:'#274047',
-      fontSize:'15px',
+      fontSize:'13px',
       fontWeight: 700,
       fontFamily: 'Arial',
     },
