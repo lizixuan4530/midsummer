@@ -1,5 +1,10 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
+
+import Box from '@material-ui/core/Box';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+
 import Pic from './pics';
 
 import Caramel_1 from './img/Caramel_1.jpg';
@@ -74,7 +79,7 @@ import StrawberryIceCream_2 from './img/StrawberryIceCream_2.jpg';
 import Tiramisu_1 from './img/Tiramisu_1.jpg';
 import Tiramisu_2 from './img/Tiramisu_2.jpg';
 
-const foodData = [
+const winterCake = [
   {
     imgs:[Caramel_1,Caramel_2,Caramel_3],
     title: '焦糖奶油咖啡戚风蛋糕',
@@ -99,94 +104,172 @@ const foodData = [
   price1: '4寸(10cm).........24€',
   price2: '6寸(15cm).........36€',
 },
-{
-  imgs:[Tiramisu_1,Tiramisu_2],
-  title: '提拉米苏',
-  price1: '4寸无酒/加酒.....20€/22€',
-  price2: '6寸无酒/加酒.....30€/32€',
-},
-{
-  imgs:[CoffeeLover_1,CoffeeLover_2,CoffeeLover_3],
-  title: '咖啡狂热爱好者',
-  price1: '4寸(10cm).........24€',
-  price2: '6寸(15cm).........36€',
-},
-{
-  imgs:[MatchaMousse_1,MatchaMousse_2,MatchaMousse_3],
-  title: '抹茶酸奶慕斯蛋糕',
-  price1: '4寸(10cm).........24€',
-  price2: '6寸(15cm).........36€',
-},
-{
-  imgs:[Rabbit_1,Rabbit_2,Rabbit_3,Rabbit_4],
-  title: '蟾宫玉兔',
-  price1: '养乐多果冻布丁',
-  price2: '1只............5€',
-},
-{
-  imgs:[Heart_1],
-  title: '纪念日爱心蛋糕❤',
-  price1: '香草覆盆子果酱',
-  price2: '18cm............36€',
-},
-{
-  imgs:[CheeseCake_1,CheeseCake_2,CheeseCake_3,CheeseCake_4,CheeseCake_5],
-  title: '原味/珍珠奶茶/蓝莓 冻芝士蛋糕',
-  price1: '4寸(10cm).........22€',
-  price2: '6寸(15cm).........32€',
-},
-{
-  imgs:[ChocoIceCream_1,ChocoIceCream_2],
-  title: '巧克力爆珠冰激凌蛋糕',
-  price1: '4寸(10cm).........24€',
-  price2: '6寸(15cm).........36€',
-},
-{
-  imgs:[StrawberryIceCream_1,StrawberryIceCream_2],
-  title: '草莓香草冰激凌蛋糕',
-  price1: '4寸(10cm).........24€',
-  price2: '6寸(15cm).........36€',
-},
-{
-  imgs:[MatchaIceCream_1,MatchaIceCream_2],
-  title: '抹茶香草冰激凌蛋糕',
-  price1: '4寸(10cm).........24€',
-  price2: '6寸(15cm).........36€',
-},
-{
-  imgs:[MontBlanc_1,MontBlanc_2,MontBlanc_3],
-  title: 'MontBlanc勃朗峰小蛋糕',
-  price1: '...............8.5€/个',
-},
-{
-  imgs:[RoseMousse_1,RoseMousse_2,RoseMousse_3],
-  title: '玫瑰荔枝慕斯小蛋糕',
-  price1: '...............8.5€/个',
-},
-{
-  imgs:[PassionFruit_1,PassionFruit_2],
-  title: '百香果白巧克力慕斯小蛋糕',
-  price1: '...............8.5€/个',
-},
+]
+  
+  const littleCake = [
+    {
+      imgs:[MontBlanc_1,MontBlanc_2,MontBlanc_3],
+      title: 'MontBlanc勃朗峰小蛋糕',
+      price1: '...............8.5€/个',
+    },
+    {
+      imgs:[RoseMousse_1,RoseMousse_2,RoseMousse_3],
+      title: '玫瑰荔枝慕斯小蛋糕',
+      price1: '...............8.5€/个',
+    },
+    {
+      imgs:[PassionFruit_1,PassionFruit_2],
+      title: '百香果白巧克力慕斯小蛋糕',
+      price1: '...............8.5€/个',
+    },
+    {
+      imgs:[Chocolate_1,Chocolate_2,Chocolate_3],
+      title: '黑巧克力慕斯小蛋糕',
+      price1: '...............8.5€/个',
+    },
+    {
+      imgs:[Rabbit_1,Rabbit_2,Rabbit_3,Rabbit_4],
+      title: '蟾宫玉兔',
+      price1: '养乐多果冻布丁',
+      price2: '1只............5€',
+    },
+]
 
+const classicCake = [
+  {
+    imgs:[Tiramisu_1,Tiramisu_2],
+    title: '提拉米苏',
+    price1: '4寸无酒/加酒.....20€/22€',
+    price2: '6寸无酒/加酒.....30€/32€',
+  },
+  {
+    imgs:[CoffeeLover_1,CoffeeLover_2,CoffeeLover_3],
+    title: '咖啡狂热爱好者',
+    price1: '4寸(10cm).........24€',
+    price2: '6寸(15cm).........36€',
+  },
+  {
+    imgs:[MatchaMousse_1,MatchaMousse_2,MatchaMousse_3],
+    title: '抹茶酸奶慕斯蛋糕',
+    price1: '4寸(10cm).........24€',
+    price2: '6寸(15cm).........36€',
+  },
+  {
+    imgs:[Heart_1],
+    title: '纪念日爱心蛋糕❤',
+    price1: '香草覆盆子果酱',
+    price2: '18cm............36€',
+  },
+  {
+    imgs:[CheeseCake_1,CheeseCake_2,CheeseCake_3,CheeseCake_4,CheeseCake_5],
+    title: '原味/珍珠奶茶/蓝莓 冻芝士蛋糕',
+    price1: '4寸(10cm).........22€',
+    price2: '6寸(15cm).........32€',
+  },
+  {
+    imgs:[ChocoIceCream_1,ChocoIceCream_2],
+    title: '巧克力爆珠冰激凌蛋糕',
+    price1: '4寸(10cm).........24€',
+    price2: '6寸(15cm).........36€',
+  },
+  {
+    imgs:[StrawberryIceCream_1,StrawberryIceCream_2],
+    title: '草莓香草冰激凌蛋糕',
+    price1: '4寸(10cm).........24€',
+    price2: '6寸(15cm).........36€',
+  },
+  {
+    imgs:[MatchaIceCream_1,MatchaIceCream_2],
+    title: '抹茶香草冰激凌蛋糕',
+    price1: '4寸(10cm).........24€',
+    price2: '6寸(15cm).........36€',
+  },
 ]
 
  
 export default function ButtonAppBar() {
  
   return (
+    <Grid container>
+      <Grid container spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(105deg, #D9AFD9 0%, #97D9E1 50%, #b1c7c3 100%)',marginBottom:'10px'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="center">     
+        <Typography>
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28"}} fontWeight="fontWeightBold" fontSize={16}> 
+             🍁秋冬季节限定 :
+             </Box>
+         </Typography>
+    </Grid>
     <Grid container spacing={3} 
-    style={{paddingLeft:"1%"}}
+    style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
     justify="center"
     alignItems="center">
-      {foodData.map((item) => 
-       <Grid item xs={6} sm={3}>
+      {winterCake.map((item) => 
+       <Grid item xs={6} sm={3}  >
          
            <Pic myArrayItem = {item}></Pic>
          
        </Grid>)
       }
+    </Grid>
+  
+    <Grid container spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(119deg, #FBAB7E 0%, #F7CE68 50%, #b1c7c3 100%)',marginTop:'10px',marginBottom:'10px'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="center">     
+        <Typography>
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28"}} fontWeight="fontWeightBold" fontSize={16}> 
+            🧁小蛋糕系列 :
+             </Box>
+         </Typography>
+    </Grid>
+    <Grid container spacing={3} 
+    style={{paddingLeft:"1%",paddingTop:'2%'}}
+    direction="row"
+    justify="center"
+    alignItems="center">
+      {littleCake.map((item) => 
+       <Grid item xs={6} sm={3}  >
+         
+           <Pic myArrayItem = {item}></Pic>
+         
+       </Grid>)
+      }
+    </Grid>
+  
+
+    <Grid container spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #FAACA8 0%, #dcb4ca 50%, #b1c7c3 100%)',marginTop:'10px',marginBottom:'10px'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="center">     
+        <Typography>
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",  fontWeight: 700}}  fontSize={16}> 
+            🎂仲夏经典蛋糕 :
+             </Box>
+         </Typography>
+    </Grid>
+
+
+
+
+    <Grid container spacing={3} 
+    style={{paddingLeft:"1%",paddingTop:'2%'}}
+    direction="row"
+    justify="center"
+    alignItems="center">
+      {classicCake.map((item) => 
+       <Grid item xs={6} sm={3}  >
+         
+           <Pic myArrayItem = {item}></Pic>
+         
+       </Grid>)
+      }
+    </Grid>
     </Grid>
   );
  }

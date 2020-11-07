@@ -49,16 +49,12 @@ export default function ButtonAppBar() {
           </Typography>
 
           <Typography>
-          <Tooltip title="📞0666869061" aria-label="number" placement="left">
-            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={15}> 
-               预定电话
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
+               预定电话📞:0666869061
              </Box>
-             </Tooltip>
-             <Tooltip title="ID: zhongxia052020" aria-label="number" placement="left">
-            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={15}> 
-               微信
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
+               微信ID: zhongxia052020
              </Box>
-             </Tooltip>
              </Typography>
         </Toolbar>
       </AppBar>

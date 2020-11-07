@@ -68,7 +68,7 @@ export default function Contact() {
               🧊 所有甜品拿到后需冷藏，冰淇淋蛋糕需要冷冻
              </Box>
              <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={15}> 
-              🧁 接受各种特殊蛋糕，特别场合（婚礼，百日宴，生日会等）甜品预定。请直接与客服联系，价格可能会根据需求适当调整
+              🍰 接受各种特殊蛋糕，特别场合（婚礼，百日宴，生日会等）甜品预定。请直接与客服联系，价格可能会根据需求适当调整
              </Box>
              <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={15}> 
               🥜 如有过敏、忌口（酒精，咖啡，果仁等）请提前告知所有甜品均为当天制作，材料保证新鲜
