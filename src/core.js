@@ -110,28 +110,28 @@ const winterCake = [
     {
       imgs:[MontBlanc_1,MontBlanc_2,MontBlanc_3],
       title: 'MontBlanc勃朗峰',
-      price1: '小蛋糕............8.5€/个',
+      price1: '小蛋糕.........8.5€/个',
     },
     {
       imgs:[RoseMousse_1,RoseMousse_2,RoseMousse_3],
       title: '玫瑰荔枝慕斯',
-      price1: '小蛋糕............8.5€/个',
+      price1: '小蛋糕.........8.5€/个',
     },
     {
       imgs:[PassionFruit_1,PassionFruit_2],
       title: '百香果白巧克力慕斯',
-      price1: '小蛋糕............8.5€/个',
+      price1: '小蛋糕.........8.5€/个',
     },
     {
       imgs:[Chocolate_1,Chocolate_2,Chocolate_3],
       title: '黑巧克力慕斯',
-      price1: '小蛋糕............8.5€/个',
+      price1: '小蛋糕.........8.5€/个',
     },
     {
       imgs:[Rabbit_1,Rabbit_2,Rabbit_3,Rabbit_4],
       title: '蟾宫玉兔',
       price1: '养乐多果冻布丁',
-      price2: '1只...............5€',
+      price2: '1只................5€',
     },
 ]
 
@@ -139,8 +139,8 @@ const classicCake = [
   {
     imgs:[Tiramisu_1,Tiramisu_2],
     title: '提拉米苏',
-    price1: '4寸无酒/加酒...20€/22€',
-    price2: '6寸无酒/加酒...30€/32€',
+    price1: '4寸无酒/加酒-20€/22€',
+    price2: '6寸无酒/加酒-30€/32€',
   },
   {
     imgs:[CoffeeLover_1,CoffeeLover_2,CoffeeLover_3],
