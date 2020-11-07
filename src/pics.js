@@ -36,6 +36,12 @@ const picStyles = makeStyles((theme) => ({
       fontWeight: 700,
       fontFamily: 'Arial',
     },
+    subtitle: {
+      flexGrow: 1,
+      fontSize:'12px',
+      fontWeight: 500,
+      fontFamily: 'Arial',
+    },
   
   }));
 
@@ -66,7 +72,7 @@ const MyComponent = props => {
           <Typography gutterBottom className={classes.title}>
             {props.myArrayItem.title}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography className={classes.subtitle} color="textSecondary" component="p">
           {props.myArrayItem.price1}<br/>
           {props.myArrayItem.price2}
           </Typography>
