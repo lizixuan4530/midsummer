@@ -22,7 +22,7 @@ const picStyles = makeStyles((theme) => ({
     button:{
       opacity:0.6,
       backgroundColor:'#293F4A', 
-      borderRadius:100,
+      borderRadius:50,
       alignItems:'center',
       justifyContent:'center',
       border:'0px',
@@ -59,10 +59,10 @@ const MyComponent = props => {
       {
         <Carousel className={classes.media} 
         renderCenterLeftControls={({ previousSlide }) => (
-          <button className={classes.button} onClick={previousSlide}> &lt;</button>
+          <button className={classes.button} onClick={previousSlide}>&lt;</button>
         )}
         renderCenterRightControls={({ nextSlide }) => (
-          <button  className={classes.button} onClick={nextSlide}> &gt;</button>
+          <button  className={classes.button} onClick={nextSlide}>&gt;</button>
         )}
         >      
           {
