@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.cf0ca2fc.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.cf0ca2fc.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.a70314cf.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.a70314cf.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
     "static/js/2.d51b634a.chunk.js": "/midsummer/static/js/2.d51b634a.chunk.js",
@@ -69,6 +69,6 @@
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
     "static/js/2.d51b634a.chunk.js",
-    "static/js/main.cf0ca2fc.chunk.js"
+    "static/js/main.a70314cf.chunk.js"
   ]
 }
