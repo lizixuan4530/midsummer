@@ -13,17 +13,17 @@ export default function Menu() {
 
   return (
     
-      <Grid container spacing={2} style={{backgroundColor: "#b1c7c3", width: '100vw'}}>
+      <Grid container spacing={2} style={{backgroundColor: "#274047", width: '100vw'}}>
 
-        <Grid item xs={12} xs={12} >
+        <Grid item xs={12}>
             <Bar/>
         </Grid>
 
-        <Grid item xs={12} xs={12}>
+        <Grid item xs={12}>
             <Core/>
         </Grid>
 
-        <Grid item xs={12} xs={12}>
+        <Grid item xs={12}>
             <Footer/>
         </Grid>
 

@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -12,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
   Paper: {
     padding: theme.spacing(3),
-    backgroundColor:"#d5dbda",
+    backgroundColor:"#D2CDB7",
     alignItems: 'center',
     justify: 'center',
     textAlign: 'center',
@@ -36,14 +35,6 @@ const useStyles = makeStyles((theme) => ({
         }
   }
 }));
-
-function handleLinkedInPage() {
-    window.open("https://www.linkedin.com/in/zixuan-li-0ba0ab170/",'_blank')
-    }
-
-function handleGitPage() {
-    window.open("https://github.com/lizixuan4530/",'_blank')
-    }
 
 export default function Contact() {
   const classes = useStyles();

@@ -2,10 +2,12 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 
 import Box from '@material-ui/core/Box';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 import Pic from './pics';
+
+import Lemon_1 from './img/Lemon_1.jpg';
+import Lemon_2 from './img/Lemon_2.jpg';
 
 import Caramel_1 from './img/Caramel_1.jpg';
 import Caramel_2 from './img/Caramel_2.jpg';
@@ -81,24 +83,28 @@ import Tiramisu_2 from './img/Tiramisu_2.jpg';
 
 const winterCake = [
   {
+    id:1,
     imgs:[Caramel_1,Caramel_2,Caramel_3],
     title: '焦糖奶油咖啡戚风蛋糕',
     price1: '4寸(10cm)...........24€',
     price2: '6寸(15cm)...........36€',
   },
  {
+   id:2,
    imgs:[Marron_1,Marron_2,Marron_3,Marron_4,Marron_5,Marron_6],
    title: '栗子奶油伯爵戚风蛋糕',
    price1: '4寸(10cm)...........24€',
    price2: '6寸(15cm)...........36€',
  },
  {
+  id:3,
   imgs:[Pumpkin_1,Pumpkin_2,Pumpkin_3,Pumpkin_4,Pumpkin_5],
   title: '南瓜慕斯黑芝麻海绵蛋糕',
   price1: '4寸(10cm)...........24€',
   price2: '6寸(15cm)...........36€',
 },
 {
+  id:4,
   imgs:[Mango_1,Mango_2,Mango_3,Mango_4,Mango_5],
   title: '芒果三重奏蛋糕',
   price1: '4寸(10cm)...........24€',
@@ -108,26 +114,31 @@ const winterCake = [
   
   const littleCake = [
     {
+      id:1,
       imgs:[MontBlanc_1,MontBlanc_2,MontBlanc_3],
       title: 'MontBlanc勃朗峰',
       price1: '小蛋糕...........8.5€/个',
     },
     {
+      id:2,
       imgs:[RoseMousse_1,RoseMousse_2,RoseMousse_3],
       title: '玫瑰荔枝慕斯',
       price1: '小蛋糕...........8.5€/个',
     },
     {
+      id:3,
       imgs:[PassionFruit_1,PassionFruit_2],
       title: '百香果白巧克力慕斯',
       price1: '小蛋糕...........8.5€/个',
     },
     {
+      id:4,
       imgs:[Chocolate_1,Chocolate_2,Chocolate_3],
       title: '黑巧克力慕斯',
       price1: '小蛋糕...........8.5€/个',
     },
     {
+      id:5,
       imgs:[Rabbit_1,Rabbit_2,Rabbit_3,Rabbit_4],
       title: '蟾宫玉兔',
       price1: '养乐多果冻布丁',
@@ -137,48 +148,63 @@ const winterCake = [
 
 const classicCake = [
   {
-    imgs:[Tiramisu_1,Tiramisu_2],
-    title: '提拉米苏',
-    price1: '4寸无酒/加酒...20€/22€',
-    price2: '6寸无酒/加酒...30€/32€',
+    id:1,
+    imgs:[Lemon_1,Lemon_2],
+    title: '柠檬戚风柠檬奶油蛋糕',
+    price1: '4寸(10cm)...........24€',
+    price2: '6寸(15cm)...........36€',
   },
   {
+    id:2,
     imgs:[CoffeeLover_1,CoffeeLover_2,CoffeeLover_3],
     title: '咖啡狂热爱好者',
     price1: '4寸(10cm)...........24€',
     price2: '6寸(15cm)...........36€',
   },
   {
+    id:3,
+    imgs:[Tiramisu_1,Tiramisu_2],
+    title: '提拉米苏',
+    price1: '4寸无酒/加酒.....20€/22€',
+    price2: '6寸无酒/加酒.....30€/32€',
+  },
+  {
+    id:4,
     imgs:[MatchaMousse_1,MatchaMousse_2,MatchaMousse_3],
     title: '抹茶酸奶慕斯蛋糕',
     price1: '4寸(10cm)...........24€',
     price2: '6寸(15cm)...........36€',
   },
   {
+    id:5,
     imgs:[Heart_1],
     title: '纪念日爱心蛋糕❤',
     price1: '香草覆盆子果酱',
     price2: '18cm..............36€',
   },
   {
+    id:6,
     imgs:[CheeseCake_1,CheeseCake_2,CheeseCake_3,CheeseCake_4,CheeseCake_5],
     title: '原味/珍珠奶茶/蓝莓 冻芝士蛋糕',
     price1: '4寸(10cm)...........22€',
     price2: '6寸(15cm)...........32€',
   },
   {
+    id:7,
     imgs:[ChocoIceCream_1,ChocoIceCream_2],
     title: '巧克力爆珠冰激凌蛋糕',
     price1: '4寸(10cm)...........24€',
     price2: '6寸(15cm)...........36€',
   },
   {
+    id:8,
     imgs:[StrawberryIceCream_1,StrawberryIceCream_2],
     title: '草莓香草冰激凌蛋糕',
     price1: '4寸(10cm)...........24€',
     price2: '6寸(15cm)...........36€',
   },
   {
+    id:9,
     imgs:[MatchaIceCream_1,MatchaIceCream_2],
     title: '抹茶香草冰激凌蛋糕',
     price1: '4寸(10cm)...........24€',
@@ -191,8 +217,8 @@ export default function ButtonAppBar() {
  
   return (
     <Grid container>
-      <Grid container spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(105deg, #D9AFD9 0%, #97D9E1 50%, #b1c7c3 100%)',marginBottom:'10px'}}
+      <Grid item container spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(105deg, #D9AFD9 0%, #97D9E1 50%, #274047 90%)',marginBottom:'5px'}}
     direction="row"
     justify="flex-start"
     alignItems="center">     
@@ -206,18 +232,18 @@ export default function ButtonAppBar() {
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
     justify="space-between"
-    alignItems="center">
+    alignItems="flex-start">
       {winterCake.map((item) => 
-       <Grid item xs={6} sm={3}  >
+       <Grid item xs={6} sm={3}  key={item.id}>
          
-           <Pic myArrayItem = {item}></Pic>
+           <Pic myArrayItem = {item} key={item.id}></Pic>
          
        </Grid>)
       }
     </Grid>
   
-    <Grid container spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(119deg, #FBAB7E 0%, #F7CE68 50%, #b1c7c3 100%)',marginTop:'10px',marginBottom:'10px'}}
+    <Grid container item spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(119deg, #FBAB7E 0%, #F7CE68 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
     direction="row"
     justify="flex-start"
     alignItems="center">     
@@ -231,19 +257,19 @@ export default function ButtonAppBar() {
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
     justify="space-between"
-    alignItems="center">
+    alignItems="flex-start">
       {littleCake.map((item) => 
-       <Grid item xs={6} sm={3}  >
+       <Grid item xs={6} sm={3} key={item.id}>
          
-           <Pic myArrayItem = {item}></Pic>
+           <Pic myArrayItem = {item} key={item.id}></Pic>
          
        </Grid>)
       }
     </Grid>
   
 
-    <Grid container spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #FAACA8 0%, #dcb4ca 50%, #b1c7c3 100%)',marginTop:'10px',marginBottom:'10px'}}
+    <Grid container item spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #FAACA8 0%, #dcb4ca 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
     direction="row"
     justify="flex-start"
     alignItems="center">     
@@ -261,11 +287,11 @@ export default function ButtonAppBar() {
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
     justify="space-between"
-    alignItems="center">
+    alignItems="flex-start">
       {classicCake.map((item) => 
-       <Grid item xs={6} sm={3}  >
+       <Grid item xs={6} sm={3} key={item.id}>
          
-           <Pic myArrayItem = {item}></Pic>
+           <Pic myArrayItem = {item} key={item.id}></Pic>
          
        </Grid>)
       }

@@ -3,18 +3,16 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Tooltip from '@material-ui/core/Tooltip';
 import Box from '@material-ui/core/Box';
 import logo from './img/logo.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor:'#d5dbda',
   },
   img: {
-    width: '70px',
-    height: '100px',
+    width: '49px',
+    height: '70px',
     verticalAlign:'middle',
   },
  
@@ -41,7 +39,7 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" style={{ background: '#d5dbda' }}>
+      <AppBar position="static" style={{ background: '#D2CDB7' }}>
         <Toolbar>
           <img className={classes.img} alt="img" src={logo}/>
           <Typography variant="h6" className={classes.title}>

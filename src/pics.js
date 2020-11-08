@@ -1,7 +1,5 @@
 import React from 'react';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -12,6 +10,7 @@ import Carousel from 'nuka-carousel';
 const picStyles = makeStyles((theme) => ({
     root: {
       maxWidth: 345,
+      backgroundColor:'#274047'
       },
     media: {
        height: 345,
@@ -31,16 +30,20 @@ const picStyles = makeStyles((theme) => ({
     },
     title: {
       flexGrow: 1,
-      color:'#274047',
+      color:'#D2CDB7',
       fontSize:'13px',
       fontWeight: 700,
       fontFamily: 'Arial',
+      paddingLeft:'2px',
+      paddingTop:'2px'
     },
     subtitle: {
       flexGrow: 1,
+      color:'#D2CDB7',
       fontSize:'12px',
       fontWeight: 500,
       fontFamily: 'Arial',
+      paddingLeft:'2px',
     },
   
   }));
@@ -48,12 +51,9 @@ const picStyles = makeStyles((theme) => ({
 const MyComponent = props => {
     const classes = picStyles();
   return(
-    
-    <Card className={classes.root}>
+    <div>
+    <Card className={classes.root} elevation={0}>
       {
-         
-      <CardActionArea>
-
         <Carousel className={classes.media} 
         renderCenterLeftControls={({ previousSlide }) => (
           <button className={classes.button} onClick={previousSlide}> &lt;</button>
@@ -62,13 +62,12 @@ const MyComponent = props => {
           <button  className={classes.button} onClick={nextSlide}> &gt;</button>
         )}> 
           {
-           props.myArrayItem.imgs.map((item) =>  <img src={item} />)
+           props.myArrayItem.imgs.map((item) =>  <img alt='img' src={item} />)
           } 
        </Carousel>
+      }
+    </Card>
 
-
-       
-        <CardContent>
           <Typography gutterBottom className={classes.title}>
             {props.myArrayItem.title}
           </Typography>
@@ -76,12 +75,7 @@ const MyComponent = props => {
           {props.myArrayItem.price1}<br/>
           {props.myArrayItem.price2}
           </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-      }
-    </Card>
-    
+    </div>
   );
 };
 
