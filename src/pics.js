@@ -2,7 +2,6 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-
 import Carousel from 'nuka-carousel';
 
 
@@ -22,14 +21,15 @@ const picStyles = makeStyles((theme) => ({
     button:{
       opacity:0.6,
       backgroundColor:'#293F4A', 
-      borderRadius:50,
+      borderRadius:10,
       alignItems:'center',
       justifyContent:'center',
       border:'0px',
       outline:'none',
       color: '#FFFFFF',
-      fontSize:'15px',
+      fontSize:'17px',
       fontWeight: 700,
+      padding:5,
     },
     title: {
       flexGrow: 1,
