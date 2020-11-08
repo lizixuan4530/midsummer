@@ -26,7 +26,7 @@ const picStyles = makeStyles((theme) => ({
       border:'0px',
       outline:'none',
       color: '#FFFFFF',
-      fontSize:'20px',
+      fontSize:'15px',
       fontWeight: 700,
     },
     title: {
