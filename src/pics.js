@@ -3,7 +3,6 @@ import Card from '@material-ui/core/Card';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
-
 import Carousel from 'nuka-carousel';
 
 
@@ -21,11 +20,13 @@ const picStyles = makeStyles((theme) => ({
       }
       },
     button:{
-      backgroundColor:'transparent', 
+      opacity:0.6,
+      backgroundColor:'#293F4A', 
+      borderRadius:'50%',
       border:'0px',
       outline:'none',
-      color:'#515759',
-      fontSize:'18px',
+      color: '#FFFFFF',
+      fontSize:'20px',
       fontWeight: 700,
     },
     title: {
@@ -60,7 +61,8 @@ const MyComponent = props => {
         )}
         renderCenterRightControls={({ nextSlide }) => (
           <button  className={classes.button} onClick={nextSlide}> &gt;</button>
-        )}> 
+        )}
+        >      
           {
            props.myArrayItem.imgs.map((item) =>  <img alt='img' src={item} />)
           } 
