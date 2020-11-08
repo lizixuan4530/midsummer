@@ -22,7 +22,9 @@ const picStyles = makeStyles((theme) => ({
     button:{
       opacity:0.6,
       backgroundColor:'#293F4A', 
-      borderRadius:'50%',
+      borderRadius:100,
+      alignItems:'center',
+      justifyContent:'center',
       border:'0px',
       outline:'none',
       color: '#FFFFFF',
