@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.6e09cc52.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.6e09cc52.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.e052cb58.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.e052cb58.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
-    "static/js/2.e3f38b9e.chunk.js": "/midsummer/static/js/2.e3f38b9e.chunk.js",
-    "static/js/2.e3f38b9e.chunk.js.map": "/midsummer/static/js/2.e3f38b9e.chunk.js.map",
+    "static/js/2.d51b634a.chunk.js": "/midsummer/static/js/2.d51b634a.chunk.js",
+    "static/js/2.d51b634a.chunk.js.map": "/midsummer/static/js/2.d51b634a.chunk.js.map",
     "index.html": "/midsummer/index.html",
-    "static/js/2.e3f38b9e.chunk.js.LICENSE.txt": "/midsummer/static/js/2.e3f38b9e.chunk.js.LICENSE.txt",
+    "static/js/2.d51b634a.chunk.js.LICENSE.txt": "/midsummer/static/js/2.d51b634a.chunk.js.LICENSE.txt",
     "static/media/Caramel_1.fdce0505.jpg": "/midsummer/static/media/Caramel_1.fdce0505.jpg",
     "static/media/Caramel_2.dc971d6c.jpg": "/midsummer/static/media/Caramel_2.dc971d6c.jpg",
     "static/media/Caramel_3.46284f5c.jpg": "/midsummer/static/media/Caramel_3.46284f5c.jpg",
@@ -68,7 +68,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
-    "static/js/2.e3f38b9e.chunk.js",
-    "static/js/main.6e09cc52.chunk.js"
+    "static/js/2.d51b634a.chunk.js",
+    "static/js/main.e052cb58.chunk.js"
   ]
 }
