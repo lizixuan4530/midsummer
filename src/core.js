@@ -81,30 +81,42 @@ import StrawberryIceCream_2 from './img/StrawberryIceCream_2.jpg';
 import Tiramisu_1 from './img/Tiramisu_1.jpg';
 import Tiramisu_2 from './img/Tiramisu_2.jpg';
 
+import MatchaChoco_1 from './img/MatchaChoco_1.jpg';
+import MatchaChoco_2 from './img/MatchaChoco_2.jpg';
+import MatchaChoco_3 from './img/MatchaChoco_3.jpg';
+import MatchaChoco_4 from './img/MatchaChoco_4.jpg';
+
 const winterCake = [
   {
     id:1,
+    imgs:[MatchaChoco_1,MatchaChoco_2,MatchaChoco_3,MatchaChoco_4],
+    title: '抹茶抹茶🍵 (纯抹茶/抹茶蜜红豆)',
+    price1: '4寸(10cm)...........24€',
+    price2: '6寸(15cm)...........36€',
+  },
+  {
+    id:2,
     imgs:[Caramel_1,Caramel_2,Caramel_3],
     title: '焦糖奶油咖啡戚风蛋糕',
     price1: '4寸(10cm)...........24€',
     price2: '6寸(15cm)...........36€',
   },
  {
-   id:2,
+   id:3,
    imgs:[Marron_1,Marron_2,Marron_3,Marron_4,Marron_5,Marron_6],
    title: '栗子奶油伯爵戚风蛋糕',
    price1: '4寸(10cm)...........24€',
    price2: '6寸(15cm)...........36€',
  },
  {
-  id:3,
+  id:4,
   imgs:[Pumpkin_1,Pumpkin_2,Pumpkin_3,Pumpkin_4,Pumpkin_5],
   title: '南瓜慕斯黑芝麻海绵蛋糕',
   price1: '4寸(10cm)...........24€',
   price2: '6寸(15cm)...........36€',
 },
 {
-  id:4,
+  id:5,
   imgs:[Mango_1,Mango_2,Mango_3,Mango_4,Mango_5],
   title: '芒果三重奏蛋糕',
   price1: '4寸(10cm)...........24€',
