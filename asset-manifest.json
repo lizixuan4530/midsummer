@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.f0ec9842.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.f0ec9842.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.2ee05ed5.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.2ee05ed5.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
     "static/js/2.11850059.chunk.js": "/midsummer/static/js/2.11850059.chunk.js",
@@ -36,12 +36,10 @@
     "static/media/Mango_3.f075b7cc.jpg": "/midsummer/static/media/Mango_3.f075b7cc.jpg",
     "static/media/Mango_4.43d53966.jpg": "/midsummer/static/media/Mango_4.43d53966.jpg",
     "static/media/Mango_5.381a3211.jpg": "/midsummer/static/media/Mango_5.381a3211.jpg",
-    "static/media/Marron_1.888a0b54.jpg": "/midsummer/static/media/Marron_1.888a0b54.jpg",
-    "static/media/Marron_2.e557a7c1.jpg": "/midsummer/static/media/Marron_2.e557a7c1.jpg",
-    "static/media/Marron_3.44c6dc04.jpg": "/midsummer/static/media/Marron_3.44c6dc04.jpg",
-    "static/media/Marron_4.fbc69739.jpg": "/midsummer/static/media/Marron_4.fbc69739.jpg",
-    "static/media/Marron_5.bbfa8439.jpg": "/midsummer/static/media/Marron_5.bbfa8439.jpg",
-    "static/media/Marron_6.90022505.jpg": "/midsummer/static/media/Marron_6.90022505.jpg",
+    "static/media/Marron_1.422b7723.jpg": "/midsummer/static/media/Marron_1.422b7723.jpg",
+    "static/media/Marron_2.d01567db.jpg": "/midsummer/static/media/Marron_2.d01567db.jpg",
+    "static/media/Marron_3.bcf69cb2.jpg": "/midsummer/static/media/Marron_3.bcf69cb2.jpg",
+    "static/media/Marron_4.89d2e404.jpg": "/midsummer/static/media/Marron_4.89d2e404.jpg",
     "static/media/MatchaChoco_1.6af94b0b.jpg": "/midsummer/static/media/MatchaChoco_1.6af94b0b.jpg",
     "static/media/MatchaChoco_2.85e1654b.jpg": "/midsummer/static/media/MatchaChoco_2.85e1654b.jpg",
     "static/media/MatchaChoco_3.721aaef9.jpg": "/midsummer/static/media/MatchaChoco_3.721aaef9.jpg",
@@ -61,10 +59,11 @@
     "static/media/Pumpkin_3.2f97b79b.jpg": "/midsummer/static/media/Pumpkin_3.2f97b79b.jpg",
     "static/media/Pumpkin_4.4238d1b0.jpg": "/midsummer/static/media/Pumpkin_4.4238d1b0.jpg",
     "static/media/Pumpkin_5.3823eb18.jpg": "/midsummer/static/media/Pumpkin_5.3823eb18.jpg",
-    "static/media/Rabbit_1.454c398b.jpg": "/midsummer/static/media/Rabbit_1.454c398b.jpg",
-    "static/media/Rabbit_2.cbd70ecc.jpg": "/midsummer/static/media/Rabbit_2.cbd70ecc.jpg",
-    "static/media/Rabbit_3.badc9f74.jpg": "/midsummer/static/media/Rabbit_3.badc9f74.jpg",
-    "static/media/Rabbit_4.fb411f3d.jpg": "/midsummer/static/media/Rabbit_4.fb411f3d.jpg",
+    "static/media/Rabbit_1.ceddd323.jpg": "/midsummer/static/media/Rabbit_1.ceddd323.jpg",
+    "static/media/Rabbit_2.454c398b.jpg": "/midsummer/static/media/Rabbit_2.454c398b.jpg",
+    "static/media/Rabbit_3.cbd70ecc.jpg": "/midsummer/static/media/Rabbit_3.cbd70ecc.jpg",
+    "static/media/Rabbit_4.badc9f74.jpg": "/midsummer/static/media/Rabbit_4.badc9f74.jpg",
+    "static/media/Rabbit_5.fb411f3d.jpg": "/midsummer/static/media/Rabbit_5.fb411f3d.jpg",
     "static/media/RoseMousse_1.e7696fd7.jpg": "/midsummer/static/media/RoseMousse_1.e7696fd7.jpg",
     "static/media/RoseMousse_2.94a3d98b.jpg": "/midsummer/static/media/RoseMousse_2.94a3d98b.jpg",
     "static/media/RoseMousse_3.e738d1c3.jpg": "/midsummer/static/media/RoseMousse_3.e738d1c3.jpg",
@@ -77,6 +76,6 @@
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
     "static/js/2.11850059.chunk.js",
-    "static/js/main.f0ec9842.chunk.js"
+    "static/js/main.2ee05ed5.chunk.js"
   ]
 }
