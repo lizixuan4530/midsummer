@@ -4,7 +4,11 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 
+import Card from '@material-ui/core/Card';
+import CardMedia from '@material-ui/core/CardMedia';
 import Pic from './pics';
+
+import { makeStyles } from '@material-ui/core/styles';
 
 import Lemon_1 from './img/Lemon_1.jpg';
 import Lemon_2 from './img/Lemon_2.jpg';
@@ -85,6 +89,21 @@ import MatchaChoco_1 from './img/MatchaChoco_1.jpg';
 import MatchaChoco_2 from './img/MatchaChoco_2.jpg';
 import MatchaChoco_3 from './img/MatchaChoco_3.jpg';
 import MatchaChoco_4 from './img/MatchaChoco_4.jpg';
+
+import Customized_1 from './img/Customized_1.jpg';
+import Customized_2 from './img/Customized_2.jpg';
+import Customized_3 from './img/Customized_3.jpg';
+import Customized_4 from './img/Customized_4.jpg';
+
+
+
+const CuzStyles = makeStyles((theme) => ({
+  root: {
+    maxWidth: 345,
+    backgroundColor:'#274047'
+    },
+}));
+
 
 const winterCake = [
   {
@@ -224,9 +243,11 @@ const classicCake = [
   },
 ]
 
+const Customized = [Customized_1,Customized_2,Customized_3,Customized_4]
+
  
 export default function ButtonAppBar() {
- 
+  const classes = CuzStyles();
   return (
     <Grid container>
       <Grid item container spacing={3} xs={12}
@@ -236,7 +257,7 @@ export default function ButtonAppBar() {
     alignItems="center">     
         <Typography>
             <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28"}} fontWeight="fontWeightBold" fontSize={16}> 
-             🍁秋冬季节限定 :
+            ⛄秋冬季节限定 :
              </Box>
          </Typography>
     </Grid>
@@ -292,22 +313,50 @@ export default function ButtonAppBar() {
          </Typography>
     </Grid>
 
-
-
-
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
     justify="space-between"
     alignItems="flex-start">
       {classicCake.map((item) => 
-       <Grid item xs={6} sm={3} key={item.id}>
-         
-           <Pic myArrayItem = {item} key={item.id}></Pic>
-         
+       <Grid item xs={6} sm={3} key={item.id}>   
+           <Pic myArrayItem = {item} key={item.id}></Pic>       
        </Grid>)
       }
     </Grid>
+
+    
+    <Grid container item spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #7BB4C4 0%, #BDD9E2 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="center">     
+        <Typography>
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",  fontWeight: 700}}  fontSize={16}> 
+            🎉仲夏定制成品展示(价格请私信) :
+             </Box>
+         </Typography>
+    </Grid>
+
+    <Grid container spacing={3} 
+    style={{paddingLeft:"1%",paddingTop:'2%'}}
+    direction="row"
+    justify="space-between"
+    alignItems="flex-start">
+      {Customized.map((item) => 
+       <Grid item xs={6} sm={3}>   
+           <Card className={classes.root} elevation={0}>
+            <CardMedia>
+               <img style={{height:'100%',width:'100%'}} alt='img' src={item} />
+             </CardMedia>
+          </Card>       
+       </Grid>)
+      }
+    </Grid>
+
+
+
+
     </Grid>
   );
  }
