@@ -25,8 +25,6 @@ import Marron_1 from './img/Marron_1.jpg';
 import Marron_2 from './img/Marron_2.jpg';
 import Marron_3 from './img/Marron_3.jpg';
 import Marron_4 from './img/Marron_4.jpg';
-import Marron_5 from './img/Marron_5.jpg';
-import Marron_6 from './img/Marron_6.jpg';
 
 import CheeseCake_1 from './img/CheeseCake_1.jpg';
 import CheeseCake_2 from './img/CheeseCake_2.jpg';
@@ -74,6 +72,7 @@ import Rabbit_1 from './img/Rabbit_1.jpg';
 import Rabbit_2 from './img/Rabbit_2.jpg';
 import Rabbit_3 from './img/Rabbit_3.jpg';
 import Rabbit_4 from './img/Rabbit_4.jpg';
+import Rabbit_5 from './img/Rabbit_5.jpg';
 
 import RoseMousse_1 from './img/RoseMousse_1.jpg';
 import RoseMousse_2 from './img/RoseMousse_2.jpg';
@@ -122,7 +121,7 @@ const winterCake = [
   },
  {
    id:3,
-   imgs:[Marron_1,Marron_2,Marron_3,Marron_4,Marron_5,Marron_6],
+   imgs:[Marron_1,Marron_2,Marron_3,Marron_4],
    title: '栗子奶油伯爵戚风蛋糕',
    price1: '4寸(12cm)...........24€',
    price2: '6寸(18cm)...........36€',
@@ -170,7 +169,7 @@ const winterCake = [
     },
     {
       id:5,
-      imgs:[Rabbit_1,Rabbit_2,Rabbit_3,Rabbit_4],
+      imgs:[Rabbit_1,Rabbit_2,Rabbit_3,Rabbit_4,Rabbit_5],
       title: '蟾宫玉兔',
       price1: '养乐多果冻布丁',
       price2: '1只🐰................5€',
@@ -250,8 +249,38 @@ export default function ButtonAppBar() {
   const classes = CuzStyles();
   return (
     <Grid container>
+
+ 
+<Grid container item spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)',marginBottom:'5px'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="center">     
+        <Typography>
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",  fontWeight: 700}}  fontSize={16}> 
+            🎉仲夏定制成品展示(价格请私信) :
+             </Box>
+         </Typography>
+    </Grid>
+
+    <Grid container spacing={3} 
+    style={{paddingLeft:"1%",paddingTop:'2%'}}
+    direction="row"
+    justify="space-between"
+    alignItems="flex-start">
+      {Customized.map((item) => 
+       <Grid item xs={6} sm={3}>   
+           <Card className={classes.root} elevation={0}>
+            <CardMedia>
+               <img style={{height:'100%',width:'100%'}} alt='img' src={item} />
+             </CardMedia>
+          </Card>       
+       </Grid>)
+      }
+    </Grid>
+
       <Grid item container spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(105deg, #D9AFD9 0%, #97D9E1 50%, #274047 90%)',marginBottom:'5px'}}
+    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(105deg, #D9AFD9 0%, #97D9E1 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
     direction="row"
     justify="flex-start"
     alignItems="center">     
@@ -324,38 +353,6 @@ export default function ButtonAppBar() {
        </Grid>)
       }
     </Grid>
-
-    
-    <Grid container item spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #7BB4C4 0%, #BDD9E2 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
-    direction="row"
-    justify="flex-start"
-    alignItems="center">     
-        <Typography>
-            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",  fontWeight: 700}}  fontSize={16}> 
-            🎉仲夏定制成品展示(价格请私信) :
-             </Box>
-         </Typography>
-    </Grid>
-
-    <Grid container spacing={3} 
-    style={{paddingLeft:"1%",paddingTop:'2%'}}
-    direction="row"
-    justify="space-between"
-    alignItems="flex-start">
-      {Customized.map((item) => 
-       <Grid item xs={6} sm={3}>   
-           <Card className={classes.root} elevation={0}>
-            <CardMedia>
-               <img style={{height:'100%',width:'100%'}} alt='img' src={item} />
-             </CardMedia>
-          </Card>       
-       </Grid>)
-      }
-    </Grid>
-
-
-
 
     </Grid>
   );
