@@ -101,6 +101,24 @@ const CuzStyles = makeStyles((theme) => ({
     maxWidth: 345,
     backgroundColor:'#274047'
     },
+  custo:{
+    flexGrow: 1,
+    color:'#D2CDB7',
+    fontSize:'13px',
+    fontWeight: 700,
+    fontFamily: 'Arial',
+    paddingLeft:'2px',
+    paddingTop:'2px'
+  },
+  custo1: {
+    flexGrow: 1,
+    color:'#D2CDB7',
+    fontSize:'12px',
+    fontWeight: 500,
+    fontFamily: 'Arial',
+    paddingLeft:'2px',
+  },
+
 }));
 
 
@@ -258,10 +276,22 @@ export default function ButtonAppBar() {
     alignItems="center">     
         <Typography>
             <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",  fontWeight: 700}}  fontSize={16}> 
-            🎉仲夏定制成品展示(价格请私信) :
+            🎉仲夏私人定制成品展示(价格请私信) :
              </Box>
          </Typography>
     </Grid>
+    <Typography className={classes.custo}>
+    私人定制样式颜色可自选，详情私信
+    </Typography>
+    <Typography className={classes.custo1}>
+    蛋糕胚口味：原味，可可，抹茶，咖啡, 伯爵红茶
+    </Typography>
+    <Typography className={classes.custo1}>
+    奶油口味：原味，焦糖，抹茶，巧克力，栗子
+    </Typography>
+    <Typography className={classes.custo1}>
+    夹心口味：蜜红豆，新鲜水果，果酱
+    </Typography>
 
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
