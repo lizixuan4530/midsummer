@@ -93,24 +93,18 @@ import Customized_1 from './img/Customized_1.jpg';
 import Customized_2 from './img/Customized_2.jpg';
 import Customized_3 from './img/Customized_3.jpg';
 import Customized_4 from './img/Customized_4.jpg';
+import Customized_5 from './img/Customized_5.jpg';
 
-
+import Xmas_1 from './img/Xmas_1.jpg';
+import Xmas_2 from './img/Xmas_2.jpg';
+import Xmas_3 from './img/Xmas_3.jpg';
 
 const CuzStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
     backgroundColor:'#274047'
     },
-  custo:{
-    flexGrow: 1,
-    color:'#D2CDB7',
-    fontSize:'13px',
-    fontWeight: 700,
-    fontFamily: 'Arial',
-    paddingLeft:'2px',
-    paddingTop:'2px'
-  },
-  custo1: {
+  custo: {
     flexGrow: 1,
     color:'#D2CDB7',
     fontSize:'12px',
@@ -120,6 +114,8 @@ const CuzStyles = makeStyles((theme) => ({
   },
 
 }));
+
+
 
 
 const winterCake = [
@@ -260,7 +256,17 @@ const classicCake = [
   },
 ]
 
-const Customized = [Customized_1,Customized_2,Customized_3,Customized_4]
+const Customized = [Customized_1,Customized_2,Customized_3,Customized_4,Customized_5]
+
+const XmasCake = [
+  {
+    id:1,
+    imgs:[Xmas_1,Xmas_2,Xmas_3],
+    title: '🎄栗子朗姆慕斯Bûche',
+    price1: '6-8人份 价格请私信',
+   
+  }
+]
 
  
 export default function ButtonAppBar() {
@@ -268,9 +274,34 @@ export default function ButtonAppBar() {
   return (
     <Grid container>
 
+<Grid item container spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(150deg, #0f5c30 0%, #D64C3F 10%, #0f5c30 20%, #D64C3F 30%, #0f5c30 40%, #D64C3F 50%, #0f5c30 60%, #D64C3F 70%, #0f5c30 80%, #274047 90%)',marginBottom:'5px'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="center">     
+        <Typography>
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#ECDEC4"}} fontWeight="fontWeightBold" fontSize={16}> 
+            🎅圣诞限定(12月15日-1月15日接受预定) :
+             </Box>
+         </Typography>
+    </Grid>
+    <Grid container spacing={3} 
+    style={{paddingLeft:"1%",paddingTop:'2%'}}
+    direction="row"
+    justify="space-between"
+    alignItems="flex-start">
+      {XmasCake.map((item) => 
+       <Grid item xs={6} sm={3}  key={item.id}>
+         
+           <Pic myArrayItem = {item} key={item.id}></Pic>
+         
+       </Grid>)
+      }
+    </Grid>
+
  
 <Grid container item spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)',marginBottom:'5px'}}
+    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
     direction="row"
     justify="flex-start"
     alignItems="center">     
@@ -281,16 +312,10 @@ export default function ButtonAppBar() {
          </Typography>
     </Grid>
     <Typography className={classes.custo}>
-    私人定制样式颜色可自选，详情私信
-    </Typography>
-    <Typography className={classes.custo1}>
-    蛋糕胚口味：原味，可可，抹茶，咖啡, 伯爵红茶
-    </Typography>
-    <Typography className={classes.custo1}>
-    奶油口味：原味，焦糖，抹茶，巧克力，栗子
-    </Typography>
-    <Typography className={classes.custo1}>
-    夹心口味：蜜红豆，新鲜水果，果酱
+      <Box fontWeight="fontWeightBold" fontSize={13}>私人定制样式颜色可自选，详情私信</Box>
+      <Box>蛋糕胚口味：原味，可可，抹茶，咖啡, 伯爵红茶</Box>
+      <Box>奶油口味：原味，焦糖，抹茶，巧克力，栗子</Box>
+      <Box>夹心口味：蜜红豆，新鲜水果，果酱</Box>
     </Typography>
 
     <Grid container spacing={3} 
