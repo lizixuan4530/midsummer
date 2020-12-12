@@ -315,7 +315,6 @@ export default function ButtonAppBar() {
       <Box fontWeight="fontWeightBold" fontSize={13}>私人定制样式颜色可自选，详情私信</Box>
       <Box>蛋糕胚口味：原味，可可，抹茶，咖啡, 伯爵红茶</Box>
       <Box>奶油口味：原味，焦糖，抹茶，巧克力，栗子</Box>
-      <Box>夹心口味：蜜红豆，新鲜水果，果酱</Box>
     </Typography>
 
     <Grid container spacing={3} 
