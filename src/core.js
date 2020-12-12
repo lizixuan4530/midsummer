@@ -94,6 +94,7 @@ import Customized_2 from './img/Customized_2.jpg';
 import Customized_3 from './img/Customized_3.jpg';
 import Customized_4 from './img/Customized_4.jpg';
 import Customized_5 from './img/Customized_5.jpg';
+import Customized_6 from './img/Customized_6.jpg';
 
 import Xmas_1 from './img/Xmas_1.jpg';
 import Xmas_2 from './img/Xmas_2.jpg';
@@ -256,7 +257,7 @@ const classicCake = [
   },
 ]
 
-const Customized = [Customized_1,Customized_2,Customized_3,Customized_4,Customized_5]
+const Customized = [Customized_1,Customized_2,Customized_3,Customized_4,Customized_5,Customized_6]
 
 const XmasCake = [
   {
@@ -320,7 +321,7 @@ export default function ButtonAppBar() {
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
-    justify="space-between"
+    justify="flex-start"
     alignItems="flex-start">
       {Customized.map((item) => 
        <Grid item xs={6} sm={3}>   
