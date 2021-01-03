@@ -89,6 +89,11 @@ import MatchaChoco_2 from './img/MatchaChoco_2.jpg';
 import MatchaChoco_3 from './img/MatchaChoco_3.jpg';
 import MatchaChoco_4 from './img/MatchaChoco_4.jpg';
 
+import Sesame_1 from './img/Sesame_1.jpg';
+import Sesame_2 from './img/Sesame_2.jpg';
+import Sesame_3 from './img/Sesame_3.jpg';
+import Sesame_4 from './img/Sesame_4.jpg';
+
 import Customized_p_1 from './img/Customized_p_1.jpg';
 import Customized_p_2 from './img/Customized_p_2.jpg';
 import Customized_p_3 from './img/Customized_p_3.jpg';
@@ -96,6 +101,7 @@ import Customized_p_4 from './img/Customized_p_4.jpg';
 import Customized_p_5 from './img/Customized_p_5.jpg';
 import Customized_p_6 from './img/Customized_p_6.jpg';
 import Customized_p_7 from './img/Customized_p_7.jpg';
+import Customized_p_8 from './img/Customized_p_8.jpg';
 
 import Customized_o_1 from './img/Customized_o_1.jpg';
 import Customized_o_2 from './img/Customized_o_2.jpg';
@@ -128,34 +134,41 @@ const CuzStyles = makeStyles((theme) => ({
 const winterCake = [
   {
     id:1,
-    imgs:[MatchaChoco_1,MatchaChoco_2,MatchaChoco_3,MatchaChoco_4],
-    title: '抹茶抹茶🍵 (两种口味可选:纯抹茶/抹茶蜜红豆)',
+    imgs:[Sesame_1,Sesame_2,Sesame_3,Sesame_4],
+    title: '黑芝麻奶油南瓜戚风蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
     id:2,
+    imgs:[MatchaChoco_1,MatchaChoco_2,MatchaChoco_3,MatchaChoco_4],
+    title: '抹茶抹茶🍵 (两种口味可选:纯抹茶/抹茶蜜红豆)',
+    price1: '4寸(12cm)...........28€',
+    price2: '6寸(18cm)...........40€',
+  },
+  {
+    id:3,
     imgs:[Caramel_1,Caramel_2,Caramel_3],
     title: '焦糖奶油咖啡戚风蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
  {
-   id:3,
+   id:4,
    imgs:[Marron_1,Marron_2,Marron_3,Marron_4],
    title: '栗子奶油伯爵戚风蛋糕',
    price1: '4寸(12cm)...........24€',
    price2: '6寸(18cm)...........36€',
  },
  {
-  id:4,
+  id:5,
   imgs:[Pumpkin_1,Pumpkin_2,Pumpkin_3,Pumpkin_4,Pumpkin_5],
   title: '南瓜慕斯黑芝麻海绵蛋糕',
   price1: '4寸(12cm)...........24€',
   price2: '6寸(18cm)...........36€',
 },
 {
-  id:5,
+  id:6,
   imgs:[Mango_1,Mango_2,Mango_3,Mango_4,Mango_5],
   title: '芒果三重奏蛋糕',
   price1: '4寸(12cm)...........24€',
@@ -223,8 +236,8 @@ const classicCake = [
     id:4,
     imgs:[MatchaMousse_1,MatchaMousse_2,MatchaMousse_3],
     title: '抹茶酸奶慕斯蛋糕',
-    price1: '4寸(12cm)...........24€',
-    price2: '6寸(18cm)...........36€',
+    price1: '4寸(12cm)...........28€',
+    price2: '6寸(18cm)...........40€',
   },
   {
     id:5,
@@ -258,13 +271,13 @@ const classicCake = [
     id:9,
     imgs:[MatchaIceCream_1,MatchaIceCream_2],
     title: '抹茶香草冰激凌蛋糕',
-    price1: '4寸(12cm)...........24€',
-    price2: '6寸(18cm)...........36€',
+    price1: '4寸(12cm)...........28€',
+    price2: '6寸(18cm)...........40€',
   },
 ]
 
 const Customized_p = [Customized_p_1,Customized_p_2,Customized_p_3,Customized_p_4,
-  Customized_p_5,Customized_p_6,Customized_p_7]
+  Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8]
 
 const Customized_o = [Customized_o_1,Customized_o_2,Customized_o_3,Customized_o_4]
 
