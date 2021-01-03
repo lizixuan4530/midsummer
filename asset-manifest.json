@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.b77c0b58.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.b77c0b58.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.bc4b4b22.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.bc4b4b22.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
     "static/js/2.2c4c05f9.chunk.js": "/midsummer/static/js/2.2c4c05f9.chunk.js",
@@ -35,6 +35,7 @@
     "static/media/Customized_p_5.d112131c.jpg": "/midsummer/static/media/Customized_p_5.d112131c.jpg",
     "static/media/Customized_p_6.9d6c224f.jpg": "/midsummer/static/media/Customized_p_6.9d6c224f.jpg",
     "static/media/Customized_p_7.c7315c84.jpg": "/midsummer/static/media/Customized_p_7.c7315c84.jpg",
+    "static/media/Customized_p_8.333ccf39.jpg": "/midsummer/static/media/Customized_p_8.333ccf39.jpg",
     "static/media/Heart_1.f919a1d2.jpg": "/midsummer/static/media/Heart_1.f919a1d2.jpg",
     "static/media/Lemon_1.7fad51a5.jpg": "/midsummer/static/media/Lemon_1.7fad51a5.jpg",
     "static/media/Lemon_2.92b3cf19.jpg": "/midsummer/static/media/Lemon_2.92b3cf19.jpg",
@@ -74,6 +75,10 @@
     "static/media/RoseMousse_1.28dfd867.jpg": "/midsummer/static/media/RoseMousse_1.28dfd867.jpg",
     "static/media/RoseMousse_2.c4fe9259.jpg": "/midsummer/static/media/RoseMousse_2.c4fe9259.jpg",
     "static/media/RoseMousse_3.bae52748.jpg": "/midsummer/static/media/RoseMousse_3.bae52748.jpg",
+    "static/media/Sesame_1.02164fa4.jpg": "/midsummer/static/media/Sesame_1.02164fa4.jpg",
+    "static/media/Sesame_2.7ff42ac9.jpg": "/midsummer/static/media/Sesame_2.7ff42ac9.jpg",
+    "static/media/Sesame_3.32437b9f.jpg": "/midsummer/static/media/Sesame_3.32437b9f.jpg",
+    "static/media/Sesame_4.bc13c886.jpg": "/midsummer/static/media/Sesame_4.bc13c886.jpg",
     "static/media/StrawberryIceCream_1.8257b70a.jpg": "/midsummer/static/media/StrawberryIceCream_1.8257b70a.jpg",
     "static/media/StrawberryIceCream_2.e181b0e9.jpg": "/midsummer/static/media/StrawberryIceCream_2.e181b0e9.jpg",
     "static/media/Tiramisu_1.8f47dc28.jpg": "/midsummer/static/media/Tiramisu_1.8f47dc28.jpg",
@@ -86,6 +91,6 @@
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
     "static/js/2.2c4c05f9.chunk.js",
-    "static/js/main.b77c0b58.chunk.js"
+    "static/js/main.bc4b4b22.chunk.js"
   ]
 }
