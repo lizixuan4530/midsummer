@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.bc4b4b22.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.bc4b4b22.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.eee66d01.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.eee66d01.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
     "static/js/2.2c4c05f9.chunk.js": "/midsummer/static/js/2.2c4c05f9.chunk.js",
     "static/js/2.2c4c05f9.chunk.js.map": "/midsummer/static/js/2.2c4c05f9.chunk.js.map",
     "index.html": "/midsummer/index.html",
     "static/js/2.2c4c05f9.chunk.js.LICENSE.txt": "/midsummer/static/js/2.2c4c05f9.chunk.js.LICENSE.txt",
+    "static/media/Box_1.106c9b14.jpg": "/midsummer/static/media/Box_1.106c9b14.jpg",
+    "static/media/Box_2.88b5f8d3.jpg": "/midsummer/static/media/Box_2.88b5f8d3.jpg",
+    "static/media/Box_3.08aa7ff8.jpg": "/midsummer/static/media/Box_3.08aa7ff8.jpg",
     "static/media/Caramel_1.41d5d171.jpg": "/midsummer/static/media/Caramel_1.41d5d171.jpg",
     "static/media/Caramel_2.dec8e775.jpg": "/midsummer/static/media/Caramel_2.dec8e775.jpg",
     "static/media/Caramel_3.1124acca.jpg": "/midsummer/static/media/Caramel_3.1124acca.jpg",
@@ -91,6 +94,6 @@
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
     "static/js/2.2c4c05f9.chunk.js",
-    "static/js/main.bc4b4b22.chunk.js"
+    "static/js/main.eee66d01.chunk.js"
   ]
 }
