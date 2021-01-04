@@ -112,6 +112,10 @@ import Xmas_1 from './img/Xmas_1.jpg';
 import Xmas_2 from './img/Xmas_2.jpg';
 import Xmas_3 from './img/Xmas_3.jpg';
 
+import Box_1 from './img/Box_1.jpg';
+import Box_2 from './img/Box_2.jpg';
+import Box_3 from './img/Box_3.jpg';
+
 const CuzStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
@@ -179,30 +183,36 @@ const winterCake = [
   const littleCake = [
     {
       id:1,
+      imgs:[Box_1,Box_2,Box_3],
+      title: '北海道戚风蛋糕',
+      price1: '一盒(4个)...........18€',
+    },
+    {
+      id:2,
       imgs:[MontBlanc_1,MontBlanc_2,MontBlanc_3],
       title: 'MontBlanc勃朗峰',
       price1: '小蛋糕...........8.5€/个',
     },
     {
-      id:2,
+      id:3,
       imgs:[RoseMousse_1,RoseMousse_2,RoseMousse_3],
       title: '玫瑰荔枝慕斯',
       price1: '小蛋糕...........8.5€/个',
     },
     {
-      id:3,
+      id:4,
       imgs:[PassionFruit_1,PassionFruit_2],
       title: '百香果白巧克力慕斯',
       price1: '小蛋糕...........8.5€/个',
     },
     {
-      id:4,
+      id:5,
       imgs:[Chocolate_1,Chocolate_2,Chocolate_3],
       title: '黑巧克力慕斯',
       price1: '小蛋糕...........8.5€/个',
     },
     {
-      id:5,
+      id:6,
       imgs:[Rabbit_1,Rabbit_2,Rabbit_3,Rabbit_4,Rabbit_5],
       title: '蟾宫玉兔',
       price1: '养乐多果冻布丁',
