@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Grid from '@material-ui/core/Grid';
 
 import Box from '@material-ui/core/Box';
@@ -102,15 +102,12 @@ import Customized_p_5 from './img/Customized_p_5.jpg';
 import Customized_p_6 from './img/Customized_p_6.jpg';
 import Customized_p_7 from './img/Customized_p_7.jpg';
 import Customized_p_8 from './img/Customized_p_8.jpg';
+import Customized_p_9 from './img/Customized_p_9.jpg';
 
 import Customized_o_1 from './img/Customized_o_1.jpg';
 import Customized_o_2 from './img/Customized_o_2.jpg';
 import Customized_o_3 from './img/Customized_o_3.jpg';
 import Customized_o_4 from './img/Customized_o_4.jpg';
-
-import Xmas_1 from './img/Xmas_1.jpg';
-import Xmas_2 from './img/Xmas_2.jpg';
-import Xmas_3 from './img/Xmas_3.jpg';
 
 import Box_1 from './img/Box_1.jpg';
 import Box_2 from './img/Box_2.jpg';
@@ -287,25 +284,13 @@ const classicCake = [
 ]
 
 const Customized_p = [Customized_p_1,Customized_p_2,Customized_p_3,Customized_p_4,
-  Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8]
+  Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8,Customized_p_9]
 
 const Customized_o = [Customized_o_1,Customized_o_2,Customized_o_3,Customized_o_4]
-
-const XmasCake = [
-  {
-    id:1,
-    imgs:[Xmas_1,Xmas_2,Xmas_3],
-    title: '🎄栗子朗姆慕斯Bûche',
-    price1: '6-8人份 价格请私信',
-   
-  }
-]
 
  
 export default function ButtonAppBar() {
   const classes = CuzStyles();
-
-  const [showXmasCake, setShowXmasCake] = useState(false);
   const [showWinterCake, setShowWinterCake] = useState(false);
   const [showLittleCake, setShowLittleCake] = useState(false);
   const [showClassicCake, setShowClassicCake] = useState(false);
@@ -315,39 +300,9 @@ export default function ButtonAppBar() {
 
   return (
     <Grid container>
-
-<Grid item container spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(150deg, #0f5c30 0%, #D64C3F 10%, #0f5c30 20%, #D64C3F 30%, #0f5c30 40%, #D64C3F 50%, #0f5c30 60%, #D64C3F 70%, #0f5c30 80%, #274047 90%)',marginBottom:'5px'}}
-    direction="row"
-    justify="flex-start"
-    alignItems="center" onClick={() => setShowXmasCake(!showXmasCake)}>     
-        <Typography>
-            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#ECDEC4",display:"inline"}} fontWeight="fontWeightBold" fontSize={16}> 
-            🎅圣诞限定(12月15日-1月15日接受预定)   
-             </Box>
-             <Box pl={3} textAlign="right" fontFamily='"Segoe UI"' style={{color:"#ECDEC4",display:"inline"}} fontWeight="fontWeightBold" fontSize={20}> 
-            {showXmasCake ? "▼" : "ᐅ"}
-             </Box>
-         </Typography>
-    </Grid>
-   
-   <Grid container spacing={3} 
-    style={{paddingLeft:"1%",paddingTop:'2%'}}
-    direction="row"
-    justify="space-between"
-    alignItems="flex-start">
-      {showXmasCake && XmasCake.map((item) => 
-       <Grid item xs={6} sm={3}  key={item.id}>
-         
-           <Pic myArrayItem = {item} key={item.id}></Pic>
-         
-       </Grid>)
-      }
-    </Grid>
-
  
 <Grid container item spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
+    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)',marginBottom:'10px'}}
     direction="row"
     justify="flex-start"
     alignItems="center">     
