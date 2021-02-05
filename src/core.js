@@ -113,6 +113,11 @@ import Box_1 from './img/Box_1.jpg';
 import Box_2 from './img/Box_2.jpg';
 import Box_3 from './img/Box_3.jpg';
 
+import Bao_1 from './img/NewYear/Bao_1.jpg';
+import Bao_2 from './img/NewYear/Bao_2.jpg';
+import Bao_3 from './img/NewYear/Bao_3.jpg';
+import Bao_4 from './img/NewYear/Bao_4.jpg';
+
 const CuzStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
@@ -143,7 +148,7 @@ const winterCake = [
   {
     id:2,
     imgs:[MatchaChoco_1,MatchaChoco_2,MatchaChoco_3,MatchaChoco_4],
-    title: '抹茶抹茶🍵 (两种口味可选:纯抹茶/抹茶蜜红豆)',
+    title: '抹茶抹茶🍵',
     price1: '4寸(12cm)...........28€',
     price2: '6寸(18cm)...........40€',
   },
@@ -283,6 +288,15 @@ const classicCake = [
   },
 ]
 
+const Newyear = [
+  {
+    id:1,
+    imgs:[Bao_1,Bao_2,Bao_3,Bao_4],
+    title: '黑金流沙包',
+    price1: '1个...........5€',
+    price2: '预定冷冻流沙包，回家蒸一下哦',
+  },]
+
 const Customized_p = [Customized_p_1,Customized_p_2,Customized_p_3,Customized_p_4,
   Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8,Customized_p_9]
 
@@ -295,14 +309,48 @@ export default function ButtonAppBar() {
   const [showLittleCake, setShowLittleCake] = useState(false);
   const [showClassicCake, setShowClassicCake] = useState(false);
 
+  const [showNewyear, setShowNewyear] = useState(true);
+
   const [showCustoPaintCake, setShowCustoPaintCake] = useState(true);
   const [showObjectCake, setShowObjectCake] = useState(false);
 
   return (
     <Grid container>
+
+<Grid item container spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'1%',background:'linear-gradient(105deg, #A3262A 0%,  #274047 90%)',marginBottom:'10px'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="center" onClick={() => setShowNewyear(!showNewyear)}>     
+        <Typography>
+            <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#FFCA62"}} fontWeight="fontWeightBold" fontSize={16}> 
+            🏮春节限定🏮
+             </Box>
+             <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#FFCA62",display:"inline"}} fontWeight="fontWeightBold" fontSize={14}> 
+            (即日起到正月十五开放预定，除夕和初一除外)
+             </Box>
+             <Box pl={3} textAlign="right" fontFamily='"Segoe UI"' style={{color:"#FFCA62",display:"inline"}} fontWeight="fontWeightBold" fontSize={20}> 
+            {showNewyear ? "▼" : "ᐅ"}
+             </Box>
+         </Typography>
+    </Grid>
+    <Grid container spacing={3} 
+    style={{paddingLeft:"1%",paddingTop:'2%'}}
+    direction="row"
+    justify="space-between"
+    alignItems="flex-start">
+      {showNewyear && Newyear.map((item) => 
+       <Grid item xs={6} sm={3}  key={item.id}>
+         
+           <Pic myArrayItem = {item} key={item.id}></Pic>
+         
+       </Grid>)
+      }
+    </Grid>
+
  
 <Grid container item spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)',marginBottom:'10px'}}
+    style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
     direction="row"
     justify="flex-start"
     alignItems="center">     
