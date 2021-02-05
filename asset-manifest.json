@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.d0fd9c96.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.d0fd9c96.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.e3fd3fc2.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.e3fd3fc2.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
-    "static/js/2.361099a2.chunk.js": "/midsummer/static/js/2.361099a2.chunk.js",
-    "static/js/2.361099a2.chunk.js.map": "/midsummer/static/js/2.361099a2.chunk.js.map",
+    "static/js/2.2c4c05f9.chunk.js": "/midsummer/static/js/2.2c4c05f9.chunk.js",
+    "static/js/2.2c4c05f9.chunk.js.map": "/midsummer/static/js/2.2c4c05f9.chunk.js.map",
     "index.html": "/midsummer/index.html",
-    "static/js/2.361099a2.chunk.js.LICENSE.txt": "/midsummer/static/js/2.361099a2.chunk.js.LICENSE.txt",
+    "static/js/2.2c4c05f9.chunk.js.LICENSE.txt": "/midsummer/static/js/2.2c4c05f9.chunk.js.LICENSE.txt",
+    "static/media/Bao_1.f0daf13f.jpg": "/midsummer/static/media/Bao_1.f0daf13f.jpg",
+    "static/media/Bao_2.d37721e7.jpg": "/midsummer/static/media/Bao_2.d37721e7.jpg",
+    "static/media/Bao_3.73509d0a.jpg": "/midsummer/static/media/Bao_3.73509d0a.jpg",
+    "static/media/Bao_4.76105521.jpg": "/midsummer/static/media/Bao_4.76105521.jpg",
     "static/media/Box_1.106c9b14.jpg": "/midsummer/static/media/Box_1.106c9b14.jpg",
     "static/media/Box_2.88b5f8d3.jpg": "/midsummer/static/media/Box_2.88b5f8d3.jpg",
     "static/media/Box_3.08aa7ff8.jpg": "/midsummer/static/media/Box_3.08aa7ff8.jpg",
@@ -91,7 +95,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
-    "static/js/2.361099a2.chunk.js",
-    "static/js/main.d0fd9c96.chunk.js"
+    "static/js/2.2c4c05f9.chunk.js",
+    "static/js/main.e3fd3fc2.chunk.js"
   ]
 }
