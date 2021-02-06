@@ -293,7 +293,7 @@ const Newyear = [
     id:1,
     imgs:[Bao_1,Bao_2,Bao_3,Bao_4],
     title: '黑金流沙包',
-    price1: '1个...........5€',
+    price1: '1个...........4€',
     price2: '冷冻流沙包，回家蒸一下哦',
   },]
 
