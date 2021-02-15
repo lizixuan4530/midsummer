@@ -232,7 +232,7 @@ const classicCake = [
     id:1,
     imgs:[EarlGery_1,EarlGery_2,EarlGery_3],
     title: '伯爵小姐',
-    price1: '伯爵奶油+戚风+茶冻+外圈甜饼',
+    price1: '奶油+戚风+茶冻+外圈甜饼',
     price2: '5寸(15cm)...........30€',
   },
   {
