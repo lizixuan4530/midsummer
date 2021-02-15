@@ -4,8 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 
-import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
 import Pic from './pics';
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -94,6 +92,10 @@ import Sesame_2 from './img/Sesame_2.jpg';
 import Sesame_3 from './img/Sesame_3.jpg';
 import Sesame_4 from './img/Sesame_4.jpg';
 
+import EarlGery_1 from './img/EarlGery_1.jpg';
+import EarlGery_2 from './img/EarlGery_2.jpg';
+import EarlGery_3 from './img/EarlGery_3.jpg';
+
 import Customized_p_1 from './img/Customized_p_1.jpg';
 import Customized_p_2 from './img/Customized_p_2.jpg';
 import Customized_p_3 from './img/Customized_p_3.jpg';
@@ -103,11 +105,14 @@ import Customized_p_6 from './img/Customized_p_6.jpg';
 import Customized_p_7 from './img/Customized_p_7.jpg';
 import Customized_p_8 from './img/Customized_p_8.jpg';
 import Customized_p_9 from './img/Customized_p_9.jpg';
+import Customized_p_10 from './img/Customized_p_10.jpg';
 
 import Customized_o_1 from './img/Customized_o_1.jpg';
 import Customized_o_2 from './img/Customized_o_2.jpg';
 import Customized_o_3 from './img/Customized_o_3.jpg';
 import Customized_o_4 from './img/Customized_o_4.jpg';
+import Customized_o_5 from './img/Customized_o_5.jpg';
+import Customized_o_6 from './img/Customized_o_6.jpg';
 
 import Box_1 from './img/Box_1.jpg';
 import Box_2 from './img/Box_2.jpg';
@@ -225,62 +230,69 @@ const winterCake = [
 const classicCake = [
   {
     id:1,
+    imgs:[EarlGery_1,EarlGery_2,EarlGery_3],
+    title: '伯爵小姐',
+    price1: '伯爵奶油+戚风+茶冻+外圈甜饼',
+    price2: '5寸(15cm)...........30€',
+  },
+  {
+    id:2,
     imgs:[Lemon_1,Lemon_2],
     title: '柠檬戚风柠檬奶油蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:2,
+    id:3,
     imgs:[CoffeeLover_1,CoffeeLover_2,CoffeeLover_3],
     title: '咖啡狂热爱好者',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:3,
+    id:4,
     imgs:[Tiramisu_1,Tiramisu_2],
     title: '提拉米苏',
     price1: '4寸无酒/加酒.....20€/22€',
     price2: '6寸无酒/加酒.....30€/32€',
   },
   {
-    id:4,
+    id:5,
     imgs:[MatchaMousse_1,MatchaMousse_2,MatchaMousse_3],
     title: '抹茶酸奶慕斯蛋糕',
     price1: '4寸(12cm)...........28€',
     price2: '6寸(18cm)...........40€',
   },
   {
-    id:5,
+    id:6,
     imgs:[Heart_1],
     title: '纪念日爱心蛋糕❤',
     price1: '香草覆盆子果酱',
     price2: '18cm..............36€',
   },
   {
-    id:6,
+    id:7,
     imgs:[CheeseCake_1,CheeseCake_2,CheeseCake_3,CheeseCake_4,CheeseCake_5],
     title: '原味/珍珠奶茶/蓝莓 冻芝士蛋糕',
     price1: '4寸(12cm)...........22€',
     price2: '6寸(18cm)...........32€',
   },
   {
-    id:7,
+    id:8,
     imgs:[ChocoIceCream_1,ChocoIceCream_2],
     title: '巧克力爆珠冰激凌蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:8,
+    id:9,
     imgs:[StrawberryIceCream_1,StrawberryIceCream_2],
     title: '草莓香草冰激凌蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:9,
+    id:10,
     imgs:[MatchaIceCream_1,MatchaIceCream_2],
     title: '抹茶香草冰激凌蛋糕',
     price1: '4寸(12cm)...........28€',
@@ -297,10 +309,20 @@ const Newyear = [
     price2: '冷冻流沙包，回家蒸一下哦',
   },]
 
-const Customized_p = [Customized_p_1,Customized_p_2,Customized_p_3,Customized_p_4,
-  Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8,Customized_p_9]
+const Customized_p = [
+  {
+    id:1,
+    imgs:[Customized_p_1,Customized_p_2,Customized_p_3,Customized_p_4,
+      Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8,Customized_p_9,Customized_p_10],
+  }
+]
 
-const Customized_o = [Customized_o_1,Customized_o_2,Customized_o_3,Customized_o_4]
+
+const Customized_o = [
+  {id:1,
+  imgs:[Customized_o_1,Customized_o_2,Customized_o_3,Customized_o_4,
+    Customized_o_5,Customized_o_6]}
+  ]
 
  
 export default function ButtonAppBar() {
@@ -380,21 +402,19 @@ export default function ButtonAppBar() {
              </Box>
          </Typography>
     </Grid>
+
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
-    justify="flex-start"
-    alignItems="flex-start">
+    justify="center"
+    alignItems="center">
       {showCustoPaintCake && Customized_p.map((item) => 
-       <Grid item xs={6} sm={3}>   
-           <Card className={classes.root} elevation={0}>
-            <CardMedia>
-               <img style={{height:'100%',width:'100%'}} alt='img' src={item} />
-             </CardMedia>
-          </Card>       
+       <Grid item xs={12} sm={12} key={item.id}>   
+           <Pic myArrayItem = {item} key={item.id}></Pic>       
        </Grid>)
       }
     </Grid>
+
 
 
     <Grid item container spacing={3} xs={12}
@@ -411,18 +431,15 @@ export default function ButtonAppBar() {
              </Box>
          </Typography>
     </Grid>
+
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
-    justify="flex-start"
-    alignItems="flex-start">
+    justify="center"
+    alignItems="center">
       {showObjectCake && Customized_o.map((item) => 
-       <Grid item xs={6} sm={3}>   
-           <Card className={classes.root} elevation={0}>
-            <CardMedia>
-               <img style={{height:'100%',width:'100%'}} alt='img' src={item} />
-             </CardMedia>
-          </Card>       
+       <Grid item xs={12} sm={12} key={item.id}>   
+           <Pic myArrayItem = {item} key={item.id}></Pic>       
        </Grid>)
       }
     </Grid>
