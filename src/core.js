@@ -38,11 +38,11 @@ import CoffeeLover_2 from './img/CoffeeLover_2.jpg';
 import CoffeeLover_3 from './img/CoffeeLover_3.jpg';
 
 
-import Pumpkin_1 from './img/Pumpkin_1.jpg';
-import Pumpkin_2 from './img/Pumpkin_2.jpg';
-import Pumpkin_3 from './img/Pumpkin_3.jpg';
-import Pumpkin_4 from './img/Pumpkin_4.jpg';
-import Pumpkin_5 from './img/Pumpkin_5.jpg';
+import Blueberry_1 from './img/Blueberry_1.jpg';
+import Blueberry_2 from './img/Blueberry_2.jpg';
+import Blueberry_3 from './img/Blueberry_3.jpg';
+import Blueberry_4 from './img/Blueberry_4.jpg';
+import Blueberry_5 from './img/Blueberry_5.jpg';
 
 import Heart_1 from './img/Heart_1.jpg';
 
@@ -152,34 +152,20 @@ const winterCake = [
   },
   {
     id:2,
-    imgs:[MatchaChoco_1,MatchaChoco_2,MatchaChoco_3,MatchaChoco_4],
-    title: '抹茶抹茶🍵',
-    price1: '4寸(12cm)...........28€',
-    price2: '6寸(18cm)...........40€',
-  },
-  {
-    id:3,
     imgs:[Caramel_1,Caramel_2,Caramel_3],
     title: '焦糖奶油咖啡戚风蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
  {
-   id:4,
+   id:3,
    imgs:[Marron_1,Marron_2,Marron_3,Marron_4],
    title: '栗子奶油伯爵戚风蛋糕',
    price1: '4寸(12cm)...........24€',
    price2: '6寸(18cm)...........36€',
  },
- {
-  id:5,
-  imgs:[Pumpkin_1,Pumpkin_2,Pumpkin_3,Pumpkin_4,Pumpkin_5],
-  title: '南瓜慕斯黑芝麻海绵蛋糕',
-  price1: '4寸(12cm)...........24€',
-  price2: '6寸(18cm)...........36€',
-},
 {
-  id:6,
+  id:4,
   imgs:[Mango_1,Mango_2,Mango_3,Mango_4,Mango_5],
   title: '芒果三重奏蛋糕',
   price1: '4寸(12cm)...........24€',
@@ -225,74 +211,88 @@ const winterCake = [
       price1: '养乐多果冻布丁',
       price2: '1只🐰................5€',
     },
-]
+] 
 
 const classicCake = [
   {
     id:1,
+    imgs:[Blueberry_1,Blueberry_2,Blueberry_3,Blueberry_4,Blueberry_5],
+    title: '蓝莓之夜',
+    price1: '4寸(12cm)...........24€',
+    price2: '6寸(18cm)...........36€',
+  },
+  {
+    id:2,
     imgs:[EarlGery_1,EarlGery_2,EarlGery_3],
     title: '伯爵小姐',
     price1: '奶油+戚风+茶冻+外圈甜饼',
     price2: '5寸(15cm)...........30€',
   },
   {
-    id:2,
+    id:3,
+    imgs:[MatchaChoco_1,MatchaChoco_2,MatchaChoco_3,MatchaChoco_4],
+    title: '抹茶抹茶🍵',
+    price1: '4寸(12cm)...........28€',
+    price2: '6寸(18cm)...........40€',
+  },
+  {
+    id:4,
     imgs:[Lemon_1,Lemon_2],
     title: '柠檬戚风柠檬奶油蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:3,
+    id:5,
     imgs:[CoffeeLover_1,CoffeeLover_2,CoffeeLover_3],
     title: '咖啡狂热爱好者',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:4,
+    id:6,
     imgs:[Tiramisu_1,Tiramisu_2],
     title: '提拉米苏',
     price1: '4寸无酒/加酒.....20€/22€',
     price2: '6寸无酒/加酒.....30€/32€',
   },
   {
-    id:5,
+    id:7,
     imgs:[MatchaMousse_1,MatchaMousse_2,MatchaMousse_3],
     title: '抹茶酸奶慕斯蛋糕',
     price1: '4寸(12cm)...........28€',
     price2: '6寸(18cm)...........40€',
   },
   {
-    id:6,
+    id:8,
     imgs:[Heart_1],
     title: '纪念日爱心蛋糕❤',
     price1: '香草覆盆子果酱',
     price2: '18cm..............36€',
   },
   {
-    id:7,
+    id:9,
     imgs:[CheeseCake_1,CheeseCake_2,CheeseCake_3,CheeseCake_4,CheeseCake_5],
     title: '原味/珍珠奶茶/蓝莓 冻芝士蛋糕',
     price1: '4寸(12cm)...........22€',
     price2: '6寸(18cm)...........32€',
   },
   {
-    id:8,
+    id:10,
     imgs:[ChocoIceCream_1,ChocoIceCream_2],
     title: '巧克力爆珠冰激凌蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:9,
+    id:11,
     imgs:[StrawberryIceCream_1,StrawberryIceCream_2],
     title: '草莓香草冰激凌蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:10,
+    id:12,
     imgs:[MatchaIceCream_1,MatchaIceCream_2],
     title: '抹茶香草冰激凌蛋糕',
     price1: '4寸(12cm)...........28€',
@@ -518,7 +518,7 @@ export default function ButtonAppBar() {
     <Grid container spacing={3} 
     style={{paddingLeft:"1%",paddingTop:'2%'}}
     direction="row"
-    justify="space-between"
+    justify="flex-start"
     alignItems="flex-start">
       {showLittleCake && littleCake.map((item) => 
        <Grid item xs={6} sm={3} key={item.id}>
