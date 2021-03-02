@@ -414,7 +414,7 @@ export default function ButtonAppBar() {
             🌸春季限定
              </Box>
              <Box pl={3} textAlign="right" fontFamily='"Segoe UI"' style={{color:"#182A28",display:"inline"}} fontWeight="fontWeightBold" fontSize={20}> 
-            {showWinterCake ? "▼" : "ᐅ"}
+            {showSpringCake ? "▼" : "ᐅ"}
              </Box>
          </Typography>
     </Grid>
