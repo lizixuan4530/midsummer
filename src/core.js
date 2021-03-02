@@ -42,7 +42,6 @@ import Blueberry_1 from './img/Blueberry_1.jpg';
 import Blueberry_2 from './img/Blueberry_2.jpg';
 import Blueberry_3 from './img/Blueberry_3.jpg';
 import Blueberry_4 from './img/Blueberry_4.jpg';
-import Blueberry_5 from './img/Blueberry_5.jpg';
 
 import Heart_1 from './img/Heart_1.jpg';
 
@@ -106,6 +105,8 @@ import Customized_p_7 from './img/Customized_p_7.jpg';
 import Customized_p_8 from './img/Customized_p_8.jpg';
 import Customized_p_9 from './img/Customized_p_9.jpg';
 import Customized_p_10 from './img/Customized_p_10.jpg';
+import Customized_p_11 from './img/Customized_p_11.jpg';
+import Customized_p_12 from './img/Customized_p_12.jpg';
 
 import Customized_o_1 from './img/Customized_o_1.jpg';
 import Customized_o_2 from './img/Customized_o_2.jpg';
@@ -113,15 +114,12 @@ import Customized_o_3 from './img/Customized_o_3.jpg';
 import Customized_o_4 from './img/Customized_o_4.jpg';
 import Customized_o_5 from './img/Customized_o_5.jpg';
 import Customized_o_6 from './img/Customized_o_6.jpg';
+import Customized_o_7 from './img/Customized_o_7.jpg';
 
 import Box_1 from './img/Box_1.jpg';
 import Box_2 from './img/Box_2.jpg';
 import Box_3 from './img/Box_3.jpg';
 
-import Bao_1 from './img/NewYear/Bao_1.jpg';
-import Bao_2 from './img/NewYear/Bao_2.jpg';
-import Bao_3 from './img/NewYear/Bao_3.jpg';
-import Bao_4 from './img/NewYear/Bao_4.jpg';
 
 const CuzStyles = makeStyles((theme) => ({
   root: {
@@ -139,6 +137,21 @@ const CuzStyles = makeStyles((theme) => ({
 
 }));
 
+const springCake = [ 
+{
+  id:1,
+  imgs:[Blueberry_1,Blueberry_2,Blueberry_3,Blueberry_4],
+  title: '蓝莓之夜',
+  price1: '4寸(12cm)...........24€',
+  price2: '6寸(18cm)...........36€',
+},
+{
+  id:2,
+  imgs:[EarlGery_1,EarlGery_2,EarlGery_3],
+  title: '伯爵小姐',
+  price1: '奶油+戚风+茶冻+外圈甜饼',
+  price2: '5寸(15cm)...........30€',
+},]
 
 
 
@@ -216,83 +229,69 @@ const winterCake = [
 const classicCake = [
   {
     id:1,
-    imgs:[Blueberry_1,Blueberry_2,Blueberry_3,Blueberry_4,Blueberry_5],
-    title: '蓝莓之夜',
-    price1: '4寸(12cm)...........24€',
-    price2: '6寸(18cm)...........36€',
-  },
-  {
-    id:2,
-    imgs:[EarlGery_1,EarlGery_2,EarlGery_3],
-    title: '伯爵小姐',
-    price1: '奶油+戚风+茶冻+外圈甜饼',
-    price2: '5寸(15cm)...........30€',
-  },
-  {
-    id:3,
     imgs:[MatchaChoco_1,MatchaChoco_2,MatchaChoco_3,MatchaChoco_4],
     title: '抹茶抹茶🍵',
     price1: '4寸(12cm)...........28€',
     price2: '6寸(18cm)...........40€',
   },
   {
-    id:4,
+    id:2,
     imgs:[Lemon_1,Lemon_2],
     title: '柠檬戚风柠檬奶油蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:5,
+    id:3,
     imgs:[CoffeeLover_1,CoffeeLover_2,CoffeeLover_3],
     title: '咖啡狂热爱好者',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:6,
+    id:4,
     imgs:[Tiramisu_1,Tiramisu_2],
     title: '提拉米苏',
     price1: '4寸无酒/加酒.....20€/22€',
     price2: '6寸无酒/加酒.....30€/32€',
   },
   {
-    id:7,
+    id:5,
     imgs:[MatchaMousse_1,MatchaMousse_2,MatchaMousse_3],
     title: '抹茶酸奶慕斯蛋糕',
     price1: '4寸(12cm)...........28€',
     price2: '6寸(18cm)...........40€',
   },
   {
-    id:8,
+    id:6,
     imgs:[Heart_1],
     title: '纪念日爱心蛋糕❤',
     price1: '香草覆盆子果酱',
     price2: '18cm..............36€',
   },
   {
-    id:9,
+    id:7,
     imgs:[CheeseCake_1,CheeseCake_2,CheeseCake_3,CheeseCake_4,CheeseCake_5],
     title: '原味/珍珠奶茶/蓝莓 冻芝士蛋糕',
     price1: '4寸(12cm)...........22€',
     price2: '6寸(18cm)...........32€',
   },
   {
-    id:10,
+    id:8,
     imgs:[ChocoIceCream_1,ChocoIceCream_2],
     title: '巧克力爆珠冰激凌蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:11,
+    id:9,
     imgs:[StrawberryIceCream_1,StrawberryIceCream_2],
     title: '草莓香草冰激凌蛋糕',
     price1: '4寸(12cm)...........24€',
     price2: '6寸(18cm)...........36€',
   },
   {
-    id:12,
+    id:10,
     imgs:[MatchaIceCream_1,MatchaIceCream_2],
     title: '抹茶香草冰激凌蛋糕',
     price1: '4寸(12cm)...........28€',
@@ -300,20 +299,13 @@ const classicCake = [
   },
 ]
 
-const Newyear = [
-  {
-    id:1,
-    imgs:[Bao_1,Bao_2,Bao_3,Bao_4],
-    title: '黑金流沙包',
-    price1: '1个...........4€',
-    price2: '冷冻流沙包，回家蒸一下哦',
-  },]
 
 const Customized_p = [
   {
     id:1,
     imgs:[Customized_p_1,Customized_p_2,Customized_p_3,Customized_p_4,
-      Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8,Customized_p_9,Customized_p_10],
+          Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8,
+          Customized_p_9,Customized_p_10,Customized_p_11,Customized_p_12],
   }
 ]
 
@@ -321,7 +313,7 @@ const Customized_p = [
 const Customized_o = [
   {id:1,
   imgs:[Customized_o_1,Customized_o_2,Customized_o_3,Customized_o_4,
-    Customized_o_5,Customized_o_6]}
+        Customized_o_5,Customized_o_6,Customized_o_7]}
   ]
 
  
@@ -331,45 +323,13 @@ export default function ButtonAppBar() {
   const [showLittleCake, setShowLittleCake] = useState(false);
   const [showClassicCake, setShowClassicCake] = useState(false);
 
-  const [showNewyear, setShowNewyear] = useState(true);
+  const [showSpringCake, setShowSpringCake] = useState(true);
 
   const [showCustoPaintCake, setShowCustoPaintCake] = useState(true);
   const [showObjectCake, setShowObjectCake] = useState(false);
 
   return (
     <Grid container>
-
-<Grid item container spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'1%',background:'linear-gradient(105deg, #A3262A 0%,  #274047 90%)',marginBottom:'10px'}}
-    direction="row"
-    justify="flex-start"
-    alignItems="center" onClick={() => setShowNewyear(!showNewyear)}>     
-        <Typography>
-            <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#FFCA62"}} fontWeight="fontWeightBold" fontSize={16}> 
-            🏮春节限定🏮
-             </Box>
-             <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#FFCA62",display:"inline"}} fontWeight="fontWeightBold" fontSize={14}> 
-            (即日起到正月十五开放预定，除夕和初一除外)
-             </Box>
-             <Box pl={3} textAlign="right" fontFamily='"Segoe UI"' style={{color:"#FFCA62",display:"inline"}} fontWeight="fontWeightBold" fontSize={20}> 
-            {showNewyear ? "▼" : "ᐅ"}
-             </Box>
-         </Typography>
-    </Grid>
-    <Grid container spacing={3} 
-    style={{paddingLeft:"1%",paddingTop:'2%'}}
-    direction="row"
-    justify="space-between"
-    alignItems="flex-start">
-      {showNewyear && Newyear.map((item) => 
-       <Grid item xs={6} sm={3}  key={item.id}>
-         
-           <Pic myArrayItem = {item} key={item.id}></Pic>
-         
-       </Grid>)
-      }
-    </Grid>
-
  
 <Grid container item spacing={3} xs={12}
     style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
@@ -443,6 +403,34 @@ export default function ButtonAppBar() {
        </Grid>)
       }
     </Grid>
+
+    <Grid item container spacing={3} xs={12}
+    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(105deg, #e183da 0%, #fddf8a 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="center" onClick={() => setShowSpringCake(!showSpringCake)}>     
+        <Typography>
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",display:"inline"}} fontWeight="fontWeightBold" fontSize={16}> 
+            🌸春季限定
+             </Box>
+             <Box pl={3} textAlign="right" fontFamily='"Segoe UI"' style={{color:"#182A28",display:"inline"}} fontWeight="fontWeightBold" fontSize={20}> 
+            {showWinterCake ? "▼" : "ᐅ"}
+             </Box>
+         </Typography>
+    </Grid>
+    <Grid container spacing={3} 
+    style={{paddingLeft:"1%",paddingTop:'2%'}}
+    direction="row"
+    justify="flex-start"
+    alignItems="flex-start">
+      {showSpringCake && springCake.map((item) => 
+       <Grid item xs={6} sm={3}  key={item.id}>
+         
+           <Pic myArrayItem = {item} key={item.id}></Pic>
+         
+       </Grid>)
+      }
+    </Grid>
    
 
       <Grid item container spacing={3} xs={12}
@@ -452,7 +440,7 @@ export default function ButtonAppBar() {
     alignItems="center" onClick={() => setShowWinterCake(!showWinterCake)}>     
         <Typography>
             <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",display:"inline"}} fontWeight="fontWeightBold" fontSize={16}> 
-            ⛄秋冬季节限定 
+            ⛄秋冬季节限定(4月下线)
              </Box>
              <Box pl={3} textAlign="right" fontFamily='"Segoe UI"' style={{color:"#182A28",display:"inline"}} fontWeight="fontWeightBold" fontSize={20}> 
             {showWinterCake ? "▼" : "ᐅ"}
@@ -478,7 +466,7 @@ export default function ButtonAppBar() {
     style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #FAACA8 0%, #dcb4ca 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
     direction="row"
     justify="flex-start"
-    alignItems="center" onClick={() => setShowClassicCake(!showClassicCake)}>     
+    alignItems="flex-start" onClick={() => setShowClassicCake(!showClassicCake)}>     
         <Typography>
             <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",display:"inline",  fontWeight: 700}}  fontSize={16}> 
             🎂仲夏经典蛋糕
