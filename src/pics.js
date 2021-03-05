@@ -3,7 +3,7 @@ import Card from '@material-ui/core/Card';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Carousel from 'nuka-carousel';
-
+import intl from 'react-intl-universal';
 
 const picStyles = makeStyles((theme) => ({
     root: {
@@ -55,6 +55,7 @@ const MyComponent = props => {
     const classes = picStyles();
   return(
     <div>
+       <p></p>
     <Card className={classes.root} elevation={0}>
       {
         <Carousel className={classes.media} 
@@ -73,11 +74,11 @@ const MyComponent = props => {
     </Card>
 
           <Typography gutterBottom className={classes.title}>
-            {props.myArrayItem.title}
+          {props.myArrayItem.title && intl.get(props.myArrayItem.title)}
           </Typography>
           <Typography className={classes.subtitle} color="textSecondary" component="p">
-          {props.myArrayItem.price1}<br/>
-          {props.myArrayItem.price2}
+          {props.myArrayItem.price1 && intl.get(props.myArrayItem.price1)}<br/>
+          {props.myArrayItem.price2 && intl.get(props.myArrayItem.price2)}
           </Typography>
     </div>
   );

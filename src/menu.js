@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Bar from './bar';
-
 import Core from './core';
 
 import Footer from './footer'
@@ -9,13 +8,41 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 
+import { emit } from "./emit";
+import intl from 'react-intl-universal';
+import locales from './locales';
 
-export default function Menu() {
+
+class Menu extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state={
+            intlDone:false
+        }
+      }
+
+    async componentDidMount() {
+        await  emit.on('change_language', lang => this.loadLocales(lang)); 
+        await this.loadLocales(); 
+      }
+      
+      loadLocales(lang = 'zh-CN') {
+        intl.init({
+          currentLocale: lang, 
+          locales,
+        }).then(() => {
+            
+          this.setState({
+            intlDone:false
+          });
+        });
+      }
+    
   
-
+render(){ 
   return (
     
-      <Grid container spacing={2} style={{backgroundColor: "#274047", width: '100vw'}}>
+      <Grid container spacing={2} style={{backgroundColor: "#274047",overflow: "hidden"}}>
 
         <Grid item xs={12}>
             <Bar/>
@@ -31,12 +58,14 @@ export default function Menu() {
 
         <Grid item xs={12} style={{backgroundColor: "#D2CDB7"}}>
            <Typography>
-            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047",opacity:0.6,padding:"5%"}} fontWeight="fontWeightBold" fontSize={10}> 
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047",opacity:0.6,padding:"20px"}} fontWeight="fontWeightBold" fontSize={10}> 
                  @仲夏甜品工作室2020
              </Box>
              </Typography>
         </Grid>   
     </Grid>
    
-  );
+  );}
 }
+
+export default Menu;

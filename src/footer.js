@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import intl from 'react-intl-universal';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -29,32 +30,36 @@ export default function Contact() {
     <div className={classes.root}>
       <Paper elevation={3} className={classes.Paper}>
         <Typography>
+            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047",marginBottom:'5px'}} fontWeight="fontWeightBold" fontSize={12}> 
+            {intl.get("phone")} 0666869061 /  {intl.get("wechat")} zhongxia052020 
+             </Box>
+            
             <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={15}> 
-              ⭐⭐⭐ 注意事项 ⭐⭐⭐ <br/>
+               {intl.get("attention")} <br/>
              </Box>
             <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-              🚘 小巴黎满25€起送，大巴黎地铁/RER直达区域满35€起送
+            {intl.get("attention.delivery")}
              </Box>
             <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-              ⏰ 每天接受预定时间10:00-22:00 
+            {intl.get("attention.time")}
              </Box>
              <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-              📆 小蛋糕提前24h预定，4寸及以上蛋糕提前两天预定 
+             {intl.get("attention.ordertime")}
              </Box>
              <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-              🧊 所有甜品拿到后需冷藏，冰淇淋蛋糕需要冷冻
+              {intl.get("attention.frozen")}
              </Box>
              <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-              🍰 接受各种特殊蛋糕，特别场合(婚礼/百日宴/生日会等)甜品预定，请直接与客服联系，价格可能会根据需求适当调整
+             {intl.get("attention.occasion")}
              </Box>
              <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-              🥜 如有过敏、忌口(酒精/咖啡/果仁等)请提前告知
+             {intl.get("attention.allergy")}
              </Box>
              <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-              🍑 所有甜品均为当天制作，材料保证新鲜
+             {intl.get("attention.fresh")}
              </Box>
              <Box textAlign="left" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-              🧸 私人工坊能力有限，多谢谅解
+             {intl.get("attention.thanks")}
              </Box>
          </Typography>
        

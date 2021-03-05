@@ -1,21 +1,27 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import logo from './img/logo.png'
+import logo from './img/logo.png';
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
+import FormControl from '@material-ui/core/FormControl';
+import { emit } from "./emit";
+import intl from 'react-intl-universal';
+
+const useBarStyles = theme => ({
+
   img: {
     width: '49px',
     height: '70px',
     verticalAlign:'middle',
   },
- 
+  formControl: {
+    margin: theme.spacing(1),
+    minWidth: 50,
+  },
   title: {
     flexGrow: 1,
     color:'#274047',
@@ -32,10 +38,18 @@ const useStyles = makeStyles((theme) => ({
         color:'#557680',
         }
   },
-}));
+});
 
-export default function ButtonAppBar() {
-  const classes = useStyles();
+
+
+class ButtonAppBar extends React.Component{
+  constructor(props){
+    super(props)
+    this.state = {lang:"zh-CN"};
+  }
+ 
+render(){ 
+  const { classes } = this.props;
 
   return (
     <div className={classes.root}>
@@ -43,19 +57,25 @@ export default function ButtonAppBar() {
         <Toolbar>
           <img className={classes.img} alt="img" src={logo}/>
           <Typography variant="h6" className={classes.title}>
-            仲夏甜品工作室
+             {intl.get("midsummer")}
           </Typography>
-
-          <Typography>
-            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-               预定电话📞:0666869061
-             </Box>
-            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047"}} fontWeight="fontWeightBold" fontSize={10}> 
-               微信ID: zhongxia052020
-             </Box>
-             </Typography>
+      <FormControl className={classes.formControl}>
+        
+        <Select
+          value={this.state.lang}
+          onChange={(event) => {
+            emit.emit('change_language', event.target.value);
+            this.setState({lang: event.target.value});
+          }}
+        >
+          <MenuItem value={'zh-CN'}>🇨🇳</MenuItem>
+          <MenuItem value={'en-US'}>🇬🇧</MenuItem>
+        </Select>
+        </FormControl>
         </Toolbar>
       </AppBar>
     </div>
-  );
+  );}
 }
+
+export default withStyles(useBarStyles)(ButtonAppBar);
