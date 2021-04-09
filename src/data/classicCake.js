@@ -34,72 +34,96 @@ import MatchaMousse_1 from '../img/MatchaMousse_1.jpg';
 import MatchaMousse_2 from '../img/MatchaMousse_2.jpg';
 import MatchaMousse_3 from '../img/MatchaMousse_3.jpg';
 
+import Sesame_1 from '../img/Sesame_1.jpg';
+import Sesame_2 from '../img/Sesame_2.jpg';
+import Sesame_3 from '../img/Sesame_3.jpg';
+import Sesame_4 from '../img/Sesame_4.jpg';
+
+import Marron_1 from '../img/Marron_1.jpg';
+import Marron_2 from '../img/Marron_2.jpg';
+import Marron_3 from '../img/Marron_3.jpg';
+import Marron_4 from '../img/Marron_4.jpg';
+
 const classicCake = [
     {
       id:1,
+      imgs:[Sesame_1,Sesame_2,Sesame_3,Sesame_4],
+      title: 'winter.sesame',
+      price1: 'price.4inch',
+      price2: 'price.6inch',
+    },
+    {
+      id:2,
+      imgs:[Marron_1,Marron_2,Marron_3,Marron_4],
+      title: 'winter.marron',
+      price1: 'price.4inch',
+      price2: 'price.6inch',
+    },
+    {
+      id:3,
       imgs:[MatchaChoco_1,MatchaChoco_2,MatchaChoco_3,MatchaChoco_4],
       title: 'classic.matcha',
       price1: 'price.4inch.matcha',
       price2: 'price.6inch.matcha',
     },
     {
-      id:2,
+      id:4,
       imgs:[Lemon_1,Lemon_2],
       title: 'classic.lemon',
       price1: 'price.4inch',
       price2: 'price.6inch',
     },
     {
-      id:3,
+      id:5,
       imgs:[CoffeeLover_1,CoffeeLover_2,CoffeeLover_3],
       title: 'classic.coffeeLover',
       price1: 'price.4inch',
       price2: 'price.6inch',
     },
     {
-      id:4,
+      id:6,
       imgs:[Tiramisu_1,Tiramisu_2],
       title: 'classic.tiramisu',
       price1: 'price.4inch.tiramisu',
       price2: 'price.6inch.tiramisu',
     },
     {
-      id:5,
+      id:7,
       imgs:[MatchaMousse_1,MatchaMousse_2,MatchaMousse_3],
       title: 'classic.matchaMousse',
       price1: 'price.4inch.matcha',
       price2: 'price.6inch.matcha',
     },
     {
-      id:6,
+      id:8,
       imgs:[Heart_1],
       title: 'classic.heart',
       price1: 'price.heart',
       price2: 'price.6inch',
     },
     {
-      id:7,
+      id:9,
       imgs:[CheeseCake_1,CheeseCake_2,CheeseCake_3,CheeseCake_4,CheeseCake_5],
       title: 'classic.cheeseCake',
       price1: 'price.4inch.cheeseCake',
       price2: 'price.6inch.cheeseCake',
     },
     {
-      id:8,
+      id:10,
       imgs:[ChocoIceCream_1,ChocoIceCream_2],
       title: 'classic.icecream.choco',
       price1: 'price.4inch',
       price2: 'price.6inch',
     },
     {
-      id:9,
+      id:11,
       imgs:[StrawberryIceCream_1,StrawberryIceCream_2],
       title: 'classic.icecream.strawberry',
       price1: 'price.4inch',
       price2: 'price.6inch',
     },
     {
-      id:10,
+      id:12,
       imgs:[MatchaIceCream_1,MatchaIceCream_2],
       title: 'classic.icecream.matcha',
       price1: 'price.4inch.matcha',

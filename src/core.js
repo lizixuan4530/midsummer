@@ -33,7 +33,6 @@ import Customized_o_7 from './img/Customized_o_7.jpg';
 
 
 import springCake from './data/springCake'
-import winterCake from './data/winterCake'
 import classicCake from './data/classicCake'
 import littleCake from './data/littleCake'
 
@@ -73,7 +72,6 @@ const Customized_o = [
  
 export default function ButtonAppBar() {
   const classes = CuzStyles();
-  const [showWinterCake, setShowWinterCake] = useState(false);
   const [showLittleCake, setShowLittleCake] = useState(false);
   const [showClassicCake, setShowClassicCake] = useState(false);
 
@@ -187,36 +185,6 @@ export default function ButtonAppBar() {
       }
       
     </Grid>
-   
-
-      <Grid item container spacing={3} xs={12}
-    style={{paddingLeft:"1%",padding:'2%',background:'linear-gradient(105deg, #D9AFD9 0%, #97D9E1 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
-    direction="row"
-    justify="flex-start"
-    alignItems="center" onClick={() => setShowWinterCake(!showWinterCake)}>     
-        <Typography>
-            <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#182A28",display:"inline"}} fontWeight="fontWeightBold" fontSize={16}> 
-            {intl.get("winter")}
-             </Box>
-             <Box pl={3} textAlign="right" fontFamily='"Segoe UI"' style={{color:"#182A28",display:"inline"}} fontWeight="fontWeightBold" fontSize={20}> 
-            {showWinterCake ? "▼" : "ᐅ"}
-             </Box>
-         </Typography>
-    </Grid>
-    <Grid container spacing={3} 
-    style={{paddingLeft:"1%",paddingTop:'2%'}}
-    direction="row"
-    justify="space-between"
-    alignItems="flex-start">
-      {showWinterCake && winterCake.map((item) => 
-       <Grid item xs={6} sm={3}  key={item.id}>
-         
-           <Pic myArrayItem = {item} key={item.id}></Pic>
-         
-       </Grid>)
-      }
-    </Grid>
-
     
     <Grid container item spacing={3} xs={12}
     style={{paddingLeft:"1%",padding:'2%',background:' linear-gradient(120deg, #FAACA8 0%, #dcb4ca 50%, #274047 90%)',marginTop:'10px',marginBottom:'10px'}}
