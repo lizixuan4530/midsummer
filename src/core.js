@@ -21,6 +21,9 @@ import Customized_p_9 from './img/Customized_p_9.jpg';
 import Customized_p_10 from './img/Customized_p_10.jpg';
 import Customized_p_11 from './img/Customized_p_11.jpg';
 import Customized_p_12 from './img/Customized_p_12.jpg';
+import Customized_p_13 from './img/Customized_p_11.jpg';
+import Customized_p_14 from './img/Customized_p_12.jpg';
+
 
 import Customized_o_1 from './img/Customized_o_1.jpg';
 import Customized_o_2 from './img/Customized_o_2.jpg';
@@ -58,7 +61,8 @@ const Customized_p = [
     id:1,
     imgs:[Customized_p_1,Customized_p_2,Customized_p_3,Customized_p_4,
           Customized_p_5,Customized_p_6,Customized_p_7,Customized_p_8,
-          Customized_p_9,Customized_p_10,Customized_p_11,Customized_p_12],
+          Customized_p_9,Customized_p_10,Customized_p_11,Customized_p_12,
+          Customized_p_13,Customized_p_14],
   }
 ]
 
