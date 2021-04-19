@@ -21,8 +21,8 @@ import Customized_p_9 from './img/Customized_p_9.jpg';
 import Customized_p_10 from './img/Customized_p_10.jpg';
 import Customized_p_11 from './img/Customized_p_11.jpg';
 import Customized_p_12 from './img/Customized_p_12.jpg';
-import Customized_p_13 from './img/Customized_p_11.jpg';
-import Customized_p_14 from './img/Customized_p_12.jpg';
+import Customized_p_13 from './img/Customized_p_13.jpg';
+import Customized_p_14 from './img/Customized_p_14.jpg';
 
 
 import Customized_o_1 from './img/Customized_o_1.jpg';
