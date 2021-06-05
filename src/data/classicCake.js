@@ -1,48 +1,37 @@
-import StrawberryIceCream_1 from '../img/StrawberryIceCream_1.jpg';
-import StrawberryIceCream_2 from '../img/StrawberryIceCream_2.jpg';
-
-import Lemon_1 from '../img/Lemon_1.jpg';
-import Lemon_2 from '../img/Lemon_2.jpg';
-
-import Tiramisu_1 from '../img/Tiramisu_1.jpg';
-import Tiramisu_2 from '../img/Tiramisu_2.jpg';
-
-import MatchaChoco_1 from '../img/MatchaChoco_1.jpg';
-import MatchaChoco_2 from '../img/MatchaChoco_2.jpg';
-import MatchaChoco_3 from '../img/MatchaChoco_3.jpg';
-import MatchaChoco_4 from '../img/MatchaChoco_4.jpg';
-
 import CheeseCake_1 from '../img/CheeseCake_1.jpg';
 import CheeseCake_2 from '../img/CheeseCake_2.jpg';
 import CheeseCake_3 from '../img/CheeseCake_3.jpg';
 import CheeseCake_4 from '../img/CheeseCake_4.jpg';
 import CheeseCake_5 from '../img/CheeseCake_5.jpg';
-
 import ChocoIceCream_1 from '../img/ChocoIceCream_1.jpg';
 import ChocoIceCream_2 from '../img/ChocoIceCream_2.jpg';
-
 import CoffeeLover_1 from '../img/CoffeeLover_1.jpg';
 import CoffeeLover_2 from '../img/CoffeeLover_2.jpg';
 import CoffeeLover_3 from '../img/CoffeeLover_3.jpg';
-
 import Heart_1 from '../img/Heart_1.jpg';
-
-import MatchaIceCream_1 from '../img/MatchaIceCream_1.jpg';
-import MatchaIceCream_2 from '../img/MatchaIceCream_2.jpg';
-
-import MatchaMousse_1 from '../img/MatchaMousse_1.jpg';
-import MatchaMousse_2 from '../img/MatchaMousse_2.jpg';
-import MatchaMousse_3 from '../img/MatchaMousse_3.jpg';
-
-import Sesame_1 from '../img/Sesame_1.jpg';
-import Sesame_2 from '../img/Sesame_2.jpg';
-import Sesame_3 from '../img/Sesame_3.jpg';
-import Sesame_4 from '../img/Sesame_4.jpg';
-
+import Lemon_1 from '../img/Lemon_1.jpg';
+import Lemon_2 from '../img/Lemon_2.jpg';
 import Marron_1 from '../img/Marron_1.jpg';
 import Marron_2 from '../img/Marron_2.jpg';
 import Marron_3 from '../img/Marron_3.jpg';
 import Marron_4 from '../img/Marron_4.jpg';
+import MatchaChoco_1 from '../img/MatchaChoco_1.jpg';
+import MatchaChoco_2 from '../img/MatchaChoco_2.jpg';
+import MatchaChoco_3 from '../img/MatchaChoco_3.jpg';
+import MatchaChoco_4 from '../img/MatchaChoco_4.jpg';
+import MatchaIceCream_1 from '../img/MatchaIceCream_1.jpg';
+import MatchaIceCream_2 from '../img/MatchaIceCream_2.jpg';
+import MatchaMousse_1 from '../img/MatchaMousse_1.jpg';
+import MatchaMousse_2 from '../img/MatchaMousse_2.jpg';
+import MatchaMousse_3 from '../img/MatchaMousse_3.jpg';
+import Sesame_1 from '../img/Sesame_1.jpg';
+import Sesame_2 from '../img/Sesame_2.jpg';
+import Sesame_3 from '../img/Sesame_3.jpg';
+import Sesame_4 from '../img/Sesame_4.jpg';
+import StrawberryIceCream_1 from '../img/StrawberryIceCream_1.jpg';
+import StrawberryIceCream_2 from '../img/StrawberryIceCream_2.jpg';
+import Tiramisu_1 from '../img/Tiramisu_1.jpg';
+import Tiramisu_2 from '../img/Tiramisu_2.jpg';
 
 const classicCake = [
     {

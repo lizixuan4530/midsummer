@@ -17,10 +17,12 @@
     "custo.cream":"Cream flavours: Original, Caramel, Matcha, Chocolate, Chestnut",
     "custo.paint":"👩‍🎨 Hand-painted Cakes",
     "custo.object":"🍓 Decorated Cakes",
-    "spring":"🌸 Spring Edition",
+    "spring":"🌸 Spring Summer Edition",
     "winter":"⛄ Winter Edition (Until April)",
     "classic":"🎂 Classic Cakes",
     "little":"🧁 Little Cakes",
+    "spring.peachIceCream":"Peach Ice Cream",
+    "spring.poundCake":"Chocolate Vanilla Pound Cake",
     "spring.blueberry":"My Blueberry Nights (Mousse)",
     "spring.earl":"Earl Grey",
     "spring.pineapple":"Afternoon Sunshine🍍",
@@ -58,8 +60,9 @@
     "price.little":"Little Cake...........8.5€/one",
     "price.box":"1 Box(4 pieces)...........18€",
     "price.rabbit.info":"Yakult Jelly Pudding",
-    "price.rabbit":"1 Rabbit🐰.............5€"
-
+    "price.rabbit":"1 Rabbit🐰.............5€",
+    "price.2pound":"2~3 people.........14€",
+    "price.4pound":"4 people.............18€"
 
    
 
