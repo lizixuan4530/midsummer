@@ -18,37 +18,60 @@ import PoundCake_1 from "../img/PoundCake_1.jpg";
 import PoundCake_2 from "../img/PoundCake_2.jpg";
 import PoundCake_3 from "../img/PoundCake_3.jpg";
 
+import MangoIceCream_1 from "../img/MangoIceCream_1.jpg";
+import MangoIceCream_2 from "../img/MangoIceCream_2.jpg";
+import MangoIceCream_3 from "../img/MangoIceCream_3.jpg";
+
+import OreoIceCream_1 from "../img/OreoIceCream_1.jpg";
+import OreoIceCream_2 from "../img/OreoIceCream_2.jpg";
+import OreoIceCream_3 from "../img/OreoIceCream_3.jpg";
+
+
 const springCake = [
   {
     id: 1,
+    imgs: [OreoIceCream_1, OreoIceCream_2, OreoIceCream_3],
+    title: "spring.oreoIceCream",
+    price1: "price.4inch",
+    price2: "price.6inch",
+  },
+  {
+    id: 2,
+    imgs: [MangoIceCream_1, MangoIceCream_2, MangoIceCream_3],
+    title: "spring.mangoIceCream",
+    price1: "price.4inch",
+    price2: "price.6inch",
+  },
+  {
+    id: 3,
     imgs: [PeachIceCream_1, PeachIceCream_2, PeachIceCream_3, PeachIceCream_4],
     title: "spring.peachIceCream",
     price1: "price.4inch",
     price2: "price.6inch",
   },
   {
-    id: 2,
+    id: 4,
     imgs: [PoundCake_1, PoundCake_2, PoundCake_3],
     title: "spring.poundCake",
     price1: "price.2pound",
     price2: "price.4pound",
   },
   {
-    id: 3,
+    id: 5,
     imgs: [Pineapple_1, Pineapple_2, Pineapple_3, Pineapple_4, Pineapple_5],
     title: "spring.pineapple",
     price1: "price.4inch",
     price2: "price.6inch",
   },
   {
-    id: 4,
+    id: 6,
     imgs: [Blueberry_1, Blueberry_2, Blueberry_3, Blueberry_4],
     title: "spring.blueberry",
     price1: "price.4inch",
     price2: "price.6inch",
   },
   {
-    id: 5,
+    id: 7,
     imgs: [EarlGery_1, EarlGery_2, EarlGery_3],
     title: "spring.earl",
     price1: "price.earlgery.info",
