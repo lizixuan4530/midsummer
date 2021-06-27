@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.641d20fb.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.641d20fb.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.10dac670.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.10dac670.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
     "static/js/2.b4b974cf.chunk.js": "/midsummer/static/js/2.b4b974cf.chunk.js",
@@ -88,10 +88,6 @@
     "static/media/Rabbit_3.867e07dc.jpg": "/midsummer/static/media/Rabbit_3.867e07dc.jpg",
     "static/media/Rabbit_4.0a01394f.jpg": "/midsummer/static/media/Rabbit_4.0a01394f.jpg",
     "static/media/Rabbit_5.17c9f431.jpg": "/midsummer/static/media/Rabbit_5.17c9f431.jpg",
-    "static/media/Sesame_1.02164fa4.jpg": "/midsummer/static/media/Sesame_1.02164fa4.jpg",
-    "static/media/Sesame_2.7ff42ac9.jpg": "/midsummer/static/media/Sesame_2.7ff42ac9.jpg",
-    "static/media/Sesame_3.32437b9f.jpg": "/midsummer/static/media/Sesame_3.32437b9f.jpg",
-    "static/media/Sesame_4.bc13c886.jpg": "/midsummer/static/media/Sesame_4.bc13c886.jpg",
     "static/media/StrawberryIceCream_1.8257b70a.jpg": "/midsummer/static/media/StrawberryIceCream_1.8257b70a.jpg",
     "static/media/StrawberryIceCream_2.e181b0e9.jpg": "/midsummer/static/media/StrawberryIceCream_2.e181b0e9.jpg",
     "static/media/Tiramisu_1.8f47dc28.jpg": "/midsummer/static/media/Tiramisu_1.8f47dc28.jpg",
@@ -101,6 +97,6 @@
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
     "static/js/2.b4b974cf.chunk.js",
-    "static/js/main.641d20fb.chunk.js"
+    "static/js/main.10dac670.chunk.js"
   ]
 }
