@@ -5,6 +5,12 @@ import Blueberry_4 from "../img/Blueberry_4.jpg";
 import EarlGery_1 from "../img/EarlGery_1.jpg";
 import EarlGery_2 from "../img/EarlGery_2.jpg";
 import EarlGery_3 from "../img/EarlGery_3.jpg";
+import MangoIceCream_1 from "../img/MangoIceCream_1.jpg";
+import MangoIceCream_2 from "../img/MangoIceCream_2.jpg";
+import MangoIceCream_3 from "../img/MangoIceCream_3.jpg";
+import OreoIceCream_1 from "../img/OreoIceCream_1.jpg";
+import OreoIceCream_2 from "../img/OreoIceCream_2.jpg";
+import OreoIceCream_3 from "../img/OreoIceCream_3.jpg";
 import PeachIceCream_1 from "../img/PeachIceCream_1.jpg";
 import PeachIceCream_2 from "../img/PeachIceCream_2.jpg";
 import PeachIceCream_3 from "../img/PeachIceCream_3.jpg";
@@ -17,15 +23,6 @@ import Pineapple_5 from "../img/Pineapple_5.jpg";
 import PoundCake_1 from "../img/PoundCake_1.jpg";
 import PoundCake_2 from "../img/PoundCake_2.jpg";
 import PoundCake_3 from "../img/PoundCake_3.jpg";
-
-import MangoIceCream_1 from "../img/MangoIceCream_1.jpg";
-import MangoIceCream_2 from "../img/MangoIceCream_2.jpg";
-import MangoIceCream_3 from "../img/MangoIceCream_3.jpg";
-
-import OreoIceCream_1 from "../img/OreoIceCream_1.jpg";
-import OreoIceCream_2 from "../img/OreoIceCream_2.jpg";
-import OreoIceCream_3 from "../img/OreoIceCream_3.jpg";
-
 
 const springCake = [
   {

@@ -24,23 +24,12 @@ import MatchaIceCream_2 from '../img/MatchaIceCream_2.jpg';
 import MatchaMousse_1 from '../img/MatchaMousse_1.jpg';
 import MatchaMousse_2 from '../img/MatchaMousse_2.jpg';
 import MatchaMousse_3 from '../img/MatchaMousse_3.jpg';
-import Sesame_1 from '../img/Sesame_1.jpg';
-import Sesame_2 from '../img/Sesame_2.jpg';
-import Sesame_3 from '../img/Sesame_3.jpg';
-import Sesame_4 from '../img/Sesame_4.jpg';
 import StrawberryIceCream_1 from '../img/StrawberryIceCream_1.jpg';
 import StrawberryIceCream_2 from '../img/StrawberryIceCream_2.jpg';
 import Tiramisu_1 from '../img/Tiramisu_1.jpg';
 import Tiramisu_2 from '../img/Tiramisu_2.jpg';
 
 const classicCake = [
-    {
-      id:1,
-      imgs:[Sesame_1,Sesame_2,Sesame_3,Sesame_4],
-      title: 'winter.sesame',
-      price1: 'price.4inch',
-      price2: 'price.6inch',
-    },
     {
       id:2,
       imgs:[Marron_1,Marron_2,Marron_3,Marron_4],
