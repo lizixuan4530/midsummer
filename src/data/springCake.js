@@ -1,3 +1,6 @@
+import BubbleTea_1 from "../img/bubbleTea_1.jpg";
+import BubbleTea_2 from "../img/bubbleTea_2.jpg";
+import BubbleTea_3 from "../img/bubbleTea_3.jpg";
 import Blueberry_1 from "../img/Blueberry_1.jpg";
 import Blueberry_2 from "../img/Blueberry_2.jpg";
 import Blueberry_3 from "../img/Blueberry_3.jpg";
@@ -27,48 +30,55 @@ import PoundCake_3 from "../img/PoundCake_3.jpg";
 const springCake = [
   {
     id: 1,
+    imgs: [BubbleTea_1, BubbleTea_2, BubbleTea_3],
+    title: "spring.bubbleTeaIceCream",
+    price1: "price.4inch",
+    price2: "price.6inch",
+  },
+  {
+    id: 2,
     imgs: [OreoIceCream_1, OreoIceCream_2, OreoIceCream_3],
     title: "spring.oreoIceCream",
     price1: "price.4inch",
     price2: "price.6inch",
   },
   {
-    id: 2,
+    id: 3,
     imgs: [MangoIceCream_1, MangoIceCream_2, MangoIceCream_3],
     title: "spring.mangoIceCream",
     price1: "price.4inch",
     price2: "price.6inch",
   },
   {
-    id: 3,
+    id: 4,
     imgs: [PeachIceCream_1, PeachIceCream_2, PeachIceCream_3, PeachIceCream_4],
     title: "spring.peachIceCream",
     price1: "price.4inch",
     price2: "price.6inch",
   },
   {
-    id: 4,
+    id: 5,
     imgs: [PoundCake_1, PoundCake_2, PoundCake_3],
     title: "spring.poundCake",
     price1: "price.2pound",
     price2: "price.4pound",
   },
   {
-    id: 5,
+    id: 6,
     imgs: [Pineapple_1, Pineapple_2, Pineapple_3, Pineapple_4, Pineapple_5],
     title: "spring.pineapple",
     price1: "price.4inch",
     price2: "price.6inch",
   },
   {
-    id: 6,
+    id: 7,
     imgs: [Blueberry_1, Blueberry_2, Blueberry_3, Blueberry_4],
     title: "spring.blueberry",
     price1: "price.4inch",
     price2: "price.6inch",
   },
   {
-    id: 7,
+    id: 8,
     imgs: [EarlGery_1, EarlGery_2, EarlGery_3],
     title: "spring.earl",
     price1: "price.earlgery.info",
