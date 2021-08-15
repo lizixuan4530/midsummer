@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.10dac670.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.10dac670.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.1638afe4.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.1638afe4.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
     "static/js/2.b4b974cf.chunk.js": "/midsummer/static/js/2.b4b974cf.chunk.js",
@@ -32,12 +32,14 @@
     "static/media/Customized_o_5.6fce2e5d.jpg": "/midsummer/static/media/Customized_o_5.6fce2e5d.jpg",
     "static/media/Customized_o_6.a69eb543.jpg": "/midsummer/static/media/Customized_o_6.a69eb543.jpg",
     "static/media/Customized_o_7.8d54fc5d.jpg": "/midsummer/static/media/Customized_o_7.8d54fc5d.jpg",
+    "static/media/Customized_o_8.e53fa50a.jpg": "/midsummer/static/media/Customized_o_8.e53fa50a.jpg",
     "static/media/Customized_p_1.8373d460.jpg": "/midsummer/static/media/Customized_p_1.8373d460.jpg",
     "static/media/Customized_p_10.955289c4.jpg": "/midsummer/static/media/Customized_p_10.955289c4.jpg",
     "static/media/Customized_p_11.d112131c.jpg": "/midsummer/static/media/Customized_p_11.d112131c.jpg",
     "static/media/Customized_p_12.ad88e552.jpg": "/midsummer/static/media/Customized_p_12.ad88e552.jpg",
     "static/media/Customized_p_13.b53fc46b.jpg": "/midsummer/static/media/Customized_p_13.b53fc46b.jpg",
     "static/media/Customized_p_14.f47c8e58.jpg": "/midsummer/static/media/Customized_p_14.f47c8e58.jpg",
+    "static/media/Customized_p_15.184ab9fe.jpg": "/midsummer/static/media/Customized_p_15.184ab9fe.jpg",
     "static/media/Customized_p_2.f1dc7eed.jpg": "/midsummer/static/media/Customized_p_2.f1dc7eed.jpg",
     "static/media/Customized_p_3.18bc01a0.jpg": "/midsummer/static/media/Customized_p_3.18bc01a0.jpg",
     "static/media/Customized_p_4.333ccf39.jpg": "/midsummer/static/media/Customized_p_4.333ccf39.jpg",
@@ -92,11 +94,14 @@
     "static/media/StrawberryIceCream_2.e181b0e9.jpg": "/midsummer/static/media/StrawberryIceCream_2.e181b0e9.jpg",
     "static/media/Tiramisu_1.8f47dc28.jpg": "/midsummer/static/media/Tiramisu_1.8f47dc28.jpg",
     "static/media/Tiramisu_2.54c11e41.jpg": "/midsummer/static/media/Tiramisu_2.54c11e41.jpg",
+    "static/media/bubbleTea_1.02d8e486.jpg": "/midsummer/static/media/bubbleTea_1.02d8e486.jpg",
+    "static/media/bubbleTea_2.d47dd5ce.jpg": "/midsummer/static/media/bubbleTea_2.d47dd5ce.jpg",
+    "static/media/bubbleTea_3.63ad6cc4.jpg": "/midsummer/static/media/bubbleTea_3.63ad6cc4.jpg",
     "static/media/logo.aaa7b370.png": "/midsummer/static/media/logo.aaa7b370.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
     "static/js/2.b4b974cf.chunk.js",
-    "static/js/main.10dac670.chunk.js"
+    "static/js/main.1638afe4.chunk.js"
   ]
 }
