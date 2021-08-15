@@ -14,12 +14,14 @@ import Customized_o_4 from "./img/Customized_o_4.jpg";
 import Customized_o_5 from "./img/Customized_o_5.jpg";
 import Customized_o_6 from "./img/Customized_o_6.jpg";
 import Customized_o_7 from "./img/Customized_o_7.jpg";
+import Customized_o_8 from "./img/Customized_o_8.jpg";
 import Customized_p_1 from "./img/Customized_p_1.jpg";
 import Customized_p_10 from "./img/Customized_p_10.jpg";
 import Customized_p_11 from "./img/Customized_p_11.jpg";
 import Customized_p_12 from "./img/Customized_p_12.jpg";
 import Customized_p_13 from "./img/Customized_p_13.jpg";
 import Customized_p_14 from "./img/Customized_p_14.jpg";
+import Customized_p_15 from "./img/Customized_p_15.jpg";
 import Customized_p_2 from "./img/Customized_p_2.jpg";
 import Customized_p_3 from "./img/Customized_p_3.jpg";
 import Customized_p_4 from "./img/Customized_p_4.jpg";
@@ -54,6 +56,7 @@ const Customized_p = [
       Customized_p_3,
       Customized_p_4,
       Customized_p_5,
+      Customized_p_15,
       Customized_p_6,
       Customized_p_7,
       Customized_p_8,
@@ -73,6 +76,7 @@ const Customized_o = [
     imgs: [
       Customized_o_1,
       Customized_o_2,
+      Customized_o_8,
       Customized_o_3,
       Customized_o_4,
       Customized_o_5,
