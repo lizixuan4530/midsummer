@@ -1,3 +1,6 @@
+import BubbleTea_1 from "../img/bubbleTea_1.jpg";
+import BubbleTea_2 from "../img/bubbleTea_2.jpg";
+import BubbleTea_3 from "../img/bubbleTea_3.jpg";
 import CheeseCake_1 from '../img/CheeseCake_1.jpg';
 import CheeseCake_2 from '../img/CheeseCake_2.jpg';
 import CheeseCake_3 from '../img/CheeseCake_3.jpg';
@@ -11,6 +14,9 @@ import CoffeeLover_3 from '../img/CoffeeLover_3.jpg';
 import Heart_1 from '../img/Heart_1.jpg';
 import Lemon_1 from '../img/Lemon_1.jpg';
 import Lemon_2 from '../img/Lemon_2.jpg';
+import MangoIceCream_1 from "../img/MangoIceCream_1.jpg";
+import MangoIceCream_2 from "../img/MangoIceCream_2.jpg";
+import MangoIceCream_3 from "../img/MangoIceCream_3.jpg";
 import Marron_1 from '../img/Marron_1.jpg';
 import Marron_2 from '../img/Marron_2.jpg';
 import Marron_3 from '../img/Marron_3.jpg';
@@ -24,6 +30,9 @@ import MatchaIceCream_2 from '../img/MatchaIceCream_2.jpg';
 import MatchaMousse_1 from '../img/MatchaMousse_1.jpg';
 import MatchaMousse_2 from '../img/MatchaMousse_2.jpg';
 import MatchaMousse_3 from '../img/MatchaMousse_3.jpg';
+import OreoIceCream_1 from "../img/OreoIceCream_1.jpg";
+import OreoIceCream_2 from "../img/OreoIceCream_2.jpg";
+import OreoIceCream_3 from "../img/OreoIceCream_3.jpg";
 import Sesame_1 from '../img/Sesame_1.jpg';
 import Sesame_2 from '../img/Sesame_2.jpg';
 import Sesame_3 from '../img/Sesame_3.jpg';
@@ -32,6 +41,7 @@ import StrawberryIceCream_1 from '../img/StrawberryIceCream_1.jpg';
 import StrawberryIceCream_2 from '../img/StrawberryIceCream_2.jpg';
 import Tiramisu_1 from '../img/Tiramisu_1.jpg';
 import Tiramisu_2 from '../img/Tiramisu_2.jpg';
+
 
 const classicCake = [
     {
@@ -61,6 +71,27 @@ const classicCake = [
       title: 'classic.lemon',
       price1: 'price.4inch',
       price2: 'price.6inch',
+    },
+    {
+      id: 2,
+      imgs: [BubbleTea_1, BubbleTea_2, BubbleTea_3],
+      title: "spring.bubbleTeaIceCream",
+      price1: "price.4inch",
+      price2: "price.6inch",
+    },
+    {
+      id: 3,
+      imgs: [OreoIceCream_1, OreoIceCream_2, OreoIceCream_3],
+      title: "spring.oreoIceCream",
+      price1: "price.4inch",
+      price2: "price.6inch",
+    },
+    {
+      id: 4,
+      imgs: [MangoIceCream_1, MangoIceCream_2, MangoIceCream_3],
+      title: "spring.mangoIceCream",
+      price1: "price.4inch",
+      price2: "price.6inch",
     },
     {
       id:5,
