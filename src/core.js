@@ -15,20 +15,20 @@ import Customized_o_5 from "./img/Customized_o_5.jpg";
 import Customized_o_6 from "./img/Customized_o_6.jpg";
 import Customized_o_7 from "./img/Customized_o_7.jpg";
 import Customized_o_8 from "./img/Customized_o_8.jpg";
+import Customized_o_9 from "./img/Customized_o_9.jpg";
 import Customized_p_1 from "./img/Customized_p_1.jpg";
 import Customized_p_10 from "./img/Customized_p_10.jpg";
 import Customized_p_11 from "./img/Customized_p_11.jpg";
 import Customized_p_12 from "./img/Customized_p_12.jpg";
-import Customized_p_13 from "./img/Customized_p_13.jpg";
-import Customized_p_14 from "./img/Customized_p_14.jpg";
 import Customized_p_15 from "./img/Customized_p_15.jpg";
+import Customized_p_16 from "./img/Customized_p_16.jpg";
+import Customized_p_17 from "./img/Customized_p_17.jpg";
 import Customized_p_2 from "./img/Customized_p_2.jpg";
 import Customized_p_3 from "./img/Customized_p_3.jpg";
 import Customized_p_4 from "./img/Customized_p_4.jpg";
 import Customized_p_5 from "./img/Customized_p_5.jpg";
 import Customized_p_6 from "./img/Customized_p_6.jpg";
 import Customized_p_7 from "./img/Customized_p_7.jpg";
-import Customized_p_8 from "./img/Customized_p_8.jpg";
 import Customized_p_9 from "./img/Customized_p_9.jpg";
 import Pic from "./pics";
 
@@ -54,18 +54,17 @@ const Customized_p = [
       Customized_p_1,
       Customized_p_2,
       Customized_p_3,
+      Customized_p_17,
       Customized_p_4,
       Customized_p_5,
       Customized_p_15,
+      Customized_p_16,
       Customized_p_6,
       Customized_p_7,
-      Customized_p_8,
       Customized_p_9,
       Customized_p_10,
       Customized_p_11,
       Customized_p_12,
-      Customized_p_13,
-      Customized_p_14,
     ],
   },
 ];
@@ -74,6 +73,7 @@ const Customized_o = [
   {
     id: 1,
     imgs: [
+      Customized_o_9,
       Customized_o_1,
       Customized_o_2,
       Customized_o_8,
