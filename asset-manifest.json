@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.c4d2d3d4.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.c4d2d3d4.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.9593bccd.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.9593bccd.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
     "static/js/2.b4b974cf.chunk.js": "/midsummer/static/js/2.b4b974cf.chunk.js",
@@ -73,10 +73,6 @@
     "static/media/OreoIceCream_1.3c36dfac.jpg": "/midsummer/static/media/OreoIceCream_1.3c36dfac.jpg",
     "static/media/OreoIceCream_2.8e39f59a.jpg": "/midsummer/static/media/OreoIceCream_2.8e39f59a.jpg",
     "static/media/OreoIceCream_3.6cebcedc.jpg": "/midsummer/static/media/OreoIceCream_3.6cebcedc.jpg",
-    "static/media/PeachIceCream_1.9136877d.jpg": "/midsummer/static/media/PeachIceCream_1.9136877d.jpg",
-    "static/media/PeachIceCream_2.c4f5f80b.jpg": "/midsummer/static/media/PeachIceCream_2.c4f5f80b.jpg",
-    "static/media/PeachIceCream_3.1e39ba27.jpg": "/midsummer/static/media/PeachIceCream_3.1e39ba27.jpg",
-    "static/media/PeachIceCream_4.16d9065d.jpg": "/midsummer/static/media/PeachIceCream_4.16d9065d.jpg",
     "static/media/Pineapple_1.f34aea74.jpg": "/midsummer/static/media/Pineapple_1.f34aea74.jpg",
     "static/media/Pineapple_2.b874ad57.jpg": "/midsummer/static/media/Pineapple_2.b874ad57.jpg",
     "static/media/Pineapple_3.4ff0ccbb.jpg": "/midsummer/static/media/Pineapple_3.4ff0ccbb.jpg",
@@ -111,6 +107,6 @@
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
     "static/js/2.b4b974cf.chunk.js",
-    "static/js/main.c4d2d3d4.chunk.js"
+    "static/js/main.9593bccd.chunk.js"
   ]
 }
