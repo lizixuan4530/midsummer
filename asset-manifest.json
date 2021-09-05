@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/midsummer/static/js/main.9593bccd.chunk.js",
-    "main.js.map": "/midsummer/static/js/main.9593bccd.chunk.js.map",
+    "main.js": "/midsummer/static/js/main.94b0ac3b.chunk.js",
+    "main.js.map": "/midsummer/static/js/main.94b0ac3b.chunk.js.map",
     "runtime-main.js": "/midsummer/static/js/runtime-main.e9b0a529.js",
     "runtime-main.js.map": "/midsummer/static/js/runtime-main.e9b0a529.js.map",
     "static/js/2.b4b974cf.chunk.js": "/midsummer/static/js/2.b4b974cf.chunk.js",
@@ -81,6 +81,10 @@
     "static/media/PoundCake_1.723db4c4.jpg": "/midsummer/static/media/PoundCake_1.723db4c4.jpg",
     "static/media/PoundCake_2.4868bf1c.jpg": "/midsummer/static/media/PoundCake_2.4868bf1c.jpg",
     "static/media/PoundCake_3.a09c3278.jpg": "/midsummer/static/media/PoundCake_3.a09c3278.jpg",
+    "static/media/PurpleCoco_1.33c5380b.jpg": "/midsummer/static/media/PurpleCoco_1.33c5380b.jpg",
+    "static/media/PurpleCoco_2.c5f4e222.jpg": "/midsummer/static/media/PurpleCoco_2.c5f4e222.jpg",
+    "static/media/PurpleCoco_3.40f2c2ce.jpg": "/midsummer/static/media/PurpleCoco_3.40f2c2ce.jpg",
+    "static/media/PurpleCoco_4.fc89b9e9.jpg": "/midsummer/static/media/PurpleCoco_4.fc89b9e9.jpg",
     "static/media/Rabbit_1.c161b1af.jpg": "/midsummer/static/media/Rabbit_1.c161b1af.jpg",
     "static/media/Rabbit_2.eb70b477.jpg": "/midsummer/static/media/Rabbit_2.eb70b477.jpg",
     "static/media/Rabbit_3.867e07dc.jpg": "/midsummer/static/media/Rabbit_3.867e07dc.jpg",
@@ -107,6 +111,6 @@
   "entrypoints": [
     "static/js/runtime-main.e9b0a529.js",
     "static/js/2.b4b974cf.chunk.js",
-    "static/js/main.9593bccd.chunk.js"
+    "static/js/main.94b0ac3b.chunk.js"
   ]
 }
