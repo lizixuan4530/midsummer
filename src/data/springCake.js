@@ -18,8 +18,19 @@ import RoseLichi_2 from "../img/RoseLichi_2.jpg";
 import RoseLichi_3 from "../img/RoseLichi_3.jpg";
 import RoseLichi_4 from "../img/RoseLichi_4.jpg";
 import RoseLichi_5 from "../img/RoseLichi_5.jpg";
+import PurpleCoco_1 from "../img/PurpleCoco_1.jpg";
+import PurpleCoco_2 from "../img/PurpleCoco_2.jpg";
+import PurpleCoco_3 from "../img/PurpleCoco_3.jpg";
+import PurpleCoco_4 from "../img/PurpleCoco_4.jpg";
 
 const springCake = [
+  {
+    id: 1,
+    imgs: [PurpleCoco_1, PurpleCoco_2, PurpleCoco_3, PurpleCoco_4],
+    title: "spring.purpleCoco",
+    price1: "price.4inch.rose",
+    price2: "price.6inch.rose",
+  },
   {
     id: 1,
     imgs: [RoseLichi_1, RoseLichi_2, RoseLichi_3, RoseLichi_4, RoseLichi_5],
