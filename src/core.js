@@ -7,7 +7,11 @@ import intl from "react-intl-universal";
 import { presentCakesList } from "./data/present-cakes-list";
 import { summerCakesList } from "./data/summer-cakes-list";
 import Pic from "./pics";
-import { LIGHT_YELLOW, BROWN, LIGHT_PINK, PINK, BABY_BLUE } from "./colors/color";
+import {
+  BROWN,
+  LIGHT_PINK,
+  BABY_BLUE,
+} from "./colors/color";
 
 const CuzStyles = makeStyles((theme) => ({
   root: {
@@ -29,7 +33,7 @@ export default function ButtonAppBar() {
 
   return (
     <Grid container>
-            <Grid
+      <Grid
         container
         item
         spacing={3}
@@ -37,8 +41,7 @@ export default function ButtonAppBar() {
         style={{
           paddingLeft: "1%",
           padding: "2%",
-          background:
-            `linear-gradient(120deg,  ${BABY_BLUE} 0%, ${LIGHT_PINK} 90%)`,
+          background: `linear-gradient(120deg,  ${BABY_BLUE} 0%, ${LIGHT_PINK} 90%)`,
           marginBottom: "10px",
         }}
         direction="row"
@@ -57,22 +60,25 @@ export default function ButtonAppBar() {
         </Typography>
       </Grid>
 
-        <Grid
+      <Typography className={classes.custo}>
+        <Box>{intl.get("ice.price.4inch")}</Box>
+        <Box>{intl.get("ice.price.6inch")}</Box>
+      </Typography>
+
+      <Grid
         container
         spacing={3}
-        style={{ paddingLeft: "1%", paddingTop: "2%", paddingBottom: "5%" }}
+        style={{ paddingLeft: "1%", paddingBottom: "5%" }}
         direction="row"
         justify="flex-start"
         alignItems="flex-start"
       >
-        {
-          summerCakesList.map((item) => (
-            <Grid item xs={6} sm={3} key={item.id}>
-              <Pic myArrayItem={item} key={item.id}></Pic>
-            </Grid>
-          ))}
+        {summerCakesList.map((item) => (
+          <Grid item xs={6} sm={3} key={item.id}>
+            <Pic myArrayItem={item} key={item.id}></Pic>
+          </Grid>
+        ))}
       </Grid>
-      
 
       <Grid
         container
@@ -82,8 +88,7 @@ export default function ButtonAppBar() {
         style={{
           paddingLeft: "1%",
           padding: "2%",
-          background:
-            `linear-gradient(120deg,  ${BABY_BLUE} 0%, ${LIGHT_PINK} 90%)`,
+          background: `linear-gradient(120deg,  ${BABY_BLUE} 0%, ${LIGHT_PINK} 90%)`,
           marginBottom: "10px",
         }}
         direction="row"
