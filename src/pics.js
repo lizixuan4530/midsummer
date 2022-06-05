@@ -4,12 +4,12 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Carousel from 'nuka-carousel';
 import intl from 'react-intl-universal';
-import { LIGHT_YELLOW } from "./colors/color";
+import { LIGHT_YELLOW, BROWN } from "./colors/color";
 
 const picStyles = makeStyles((theme) => ({
     root: {
       maxWidth: 345,
-      backgroundColor:'#274047'
+      backgroundColor:BROWN
       },
     media: {
        height: 345,

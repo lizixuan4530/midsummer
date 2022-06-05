@@ -6,7 +6,7 @@ import React from "react";
 import intl from "react-intl-universal";
 import { presentCakesList } from "./data/present-cakes-list";
 import Pic from "./pics";
-import { LIGHT_YELLOW } from "./colors/color";
+import { LIGHT_YELLOW, BROWN, LIGHT_PINK, PINK, BABY_BLUE } from "./colors/color";
 
 const CuzStyles = makeStyles((theme) => ({
   root: {
@@ -15,7 +15,7 @@ const CuzStyles = makeStyles((theme) => ({
   },
   custo: {
     flexGrow: 1,
-    color: LIGHT_YELLOW,
+    color: BROWN,
     fontSize: "12px",
     fontWeight: 500,
     fontFamily: "Arial",
@@ -37,7 +37,7 @@ export default function ButtonAppBar() {
           paddingLeft: "1%",
           padding: "2%",
           background:
-            " linear-gradient(120deg, #de738d 0%, #bf9fc4 50%, #274047 90%)",
+            `linear-gradient(120deg,  ${BABY_BLUE} 0%, ${LIGHT_PINK} 90%)`,
           marginBottom: "10px",
         }}
         direction="row"
@@ -48,7 +48,7 @@ export default function ButtonAppBar() {
           <Box
             textAlign="center"
             fontFamily='"Segoe UI"'
-            style={{ color: "#182A28", fontWeight: 700 }}
+            style={{ color: BROWN, fontWeight: 700 }}
             fontSize={16}
           >
             {intl.get("custo.made")}
@@ -72,7 +72,7 @@ export default function ButtonAppBar() {
         style={{
           paddingLeft: "1%",
           padding: "1%",
-          background: "linear-gradient(105deg, #567077 0%, #274047 90%)",
+          background: `linear-gradient(105deg,  ${BABY_BLUE} 0%, ${LIGHT_PINK} 90%)`,
           marginTop: "10px",
         }}
         direction="row"

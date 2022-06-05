@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import logo from './img/logo.png';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
-import { LIGHT_YELLOW } from "./colors/color";
+import { LIGHT_YELLOW , BROWN} from "./colors/color";
 import FormControl from '@material-ui/core/FormControl';
 import { emit } from "./emit";
 import intl from 'react-intl-universal';
@@ -24,13 +24,13 @@ const useBarStyles = theme => ({
   },
   title: {
     flexGrow: 1,
-    color:'#274047',
+    color: BROWN,
     fontSize:'18px',
     fontWeight: 700,
     fontFamily: 'Arial',
   },
   link: {
-    color: '#274047',
+    color: BROWN,
     fontSize:'15px',
     fontWeight: 700,
     fontFamily: 'Arial',
