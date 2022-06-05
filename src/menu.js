@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import { emit } from "./emit";
 import intl from 'react-intl-universal';
 import locales from './locales';
-
+import { LIGHT_YELLOW } from "./colors/color";
 
 class Menu extends React.Component {
     constructor(props) {
@@ -56,7 +56,7 @@ render(){
             <Core/>
         </Grid>
 
-        <Grid item xs={12} style={{backgroundColor: "#D2CDB7"}}>
+        <Grid item xs={12} style={{backgroundColor: LIGHT_YELLOW}}>
            <Typography>
             <Box textAlign="center" fontFamily='"Segoe UI"' style={{color:"#274047",opacity:0.6,padding:"20px"}} fontWeight="fontWeightBold" fontSize={10}> 
                  @仲夏甜品工作室2020

@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Carousel from 'nuka-carousel';
 import intl from 'react-intl-universal';
+import { LIGHT_YELLOW } from "./colors/color";
 
 const picStyles = makeStyles((theme) => ({
     root: {
@@ -33,7 +34,7 @@ const picStyles = makeStyles((theme) => ({
     },
     title: {
       flexGrow: 1,
-      color:'#D2CDB7',
+      color:LIGHT_YELLOW,
       fontSize:'13px',
       fontWeight: 700,
       fontFamily: 'Arial',
@@ -42,7 +43,7 @@ const picStyles = makeStyles((theme) => ({
     },
     subtitle: {
       flexGrow: 1,
-      color:'#D2CDB7',
+      color:LIGHT_YELLOW,
       fontSize:'12px',
       fontWeight: 500,
       fontFamily: 'Arial',

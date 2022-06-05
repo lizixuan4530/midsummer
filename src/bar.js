@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import logo from './img/logo.png';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
-
+import { LIGHT_YELLOW } from "./colors/color";
 import FormControl from '@material-ui/core/FormControl';
 import { emit } from "./emit";
 import intl from 'react-intl-universal';
@@ -53,7 +53,7 @@ render(){
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" style={{ background: '#D2CDB7' }}>
+      <AppBar position="static" style={{ background: LIGHT_YELLOW }}>
         <Toolbar>
           <img className={classes.img} alt="img" src={logo}/>
           <Typography variant="h6" className={classes.title}>

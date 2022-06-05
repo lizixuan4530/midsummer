@@ -4,6 +4,7 @@ import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import intl from 'react-intl-universal';
+import { LIGHT_YELLOW } from "./colors/color";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -12,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   },
   Paper: {
     padding: theme.spacing(2),
-    backgroundColor:"#D2CDB7",
+    backgroundColor: LIGHT_YELLOW,
     alignItems: 'center',
     justify: 'center',
     textAlign: 'center',
