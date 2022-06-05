@@ -1,19 +1,17 @@
+import smallIce1 from "../img/summer-cakes/small/straw-choco-1.jpg"
+import bigIce1 from "../img/summer-cakes/big/three-flavor-1.jpg"
 
-// const springCake = [
-//   {
-//     id: 1,
-//     imgs: [PurpleCoco_1, PurpleCoco_2, PurpleCoco_3, PurpleCoco_4],
-//     title: "spring.purpleCoco",
-//     price1: "price.4inch.rose",
-//     price2: "price.6inch.rose",
-//   },
-//   {
-//     id: 1,
-//     imgs: [RoseLichi_1, RoseLichi_2, RoseLichi_3, RoseLichi_4, RoseLichi_5],
-//     title: "spring.roseLitchi",
-//     price1: "price.4inch.rose",
-//     price2: "price.6inch.rose",
-//   },
-// ];
-
-// export default springCake;
+export const summerCakesList = [
+  {
+    id: 1,
+    imgs: [smallIce1],
+    title: "summer.small",
+    price1: "price.4inch.ice",
+  },
+  {
+    id: 2,
+    imgs: [bigIce1],
+    title: "summer.big",
+    price1: "price.6inch.ice",
+  },
+];

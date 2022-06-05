@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import React from "react";
 import intl from "react-intl-universal";
 import { presentCakesList } from "./data/present-cakes-list";
+import { summerCakesList } from "./data/summer-cakes-list";
 import Pic from "./pics";
 import { LIGHT_YELLOW, BROWN, LIGHT_PINK, PINK, BABY_BLUE } from "./colors/color";
 
@@ -28,6 +29,51 @@ export default function ButtonAppBar() {
 
   return (
     <Grid container>
+            <Grid
+        container
+        item
+        spacing={3}
+        xs={12}
+        style={{
+          paddingLeft: "1%",
+          padding: "2%",
+          background:
+            `linear-gradient(120deg,  ${BABY_BLUE} 0%, ${LIGHT_PINK} 90%)`,
+          marginBottom: "10px",
+        }}
+        direction="row"
+        justify="flex-start"
+        alignItems="center"
+      >
+        <Typography>
+          <Box
+            textAlign="center"
+            fontFamily='"Segoe UI"'
+            style={{ color: BROWN, fontWeight: 700 }}
+            fontSize={16}
+          >
+            {intl.get("summer.cake")}
+          </Box>
+        </Typography>
+      </Grid>
+
+        <Grid
+        container
+        spacing={3}
+        style={{ paddingLeft: "1%", paddingTop: "2%", paddingBottom: "5%" }}
+        direction="row"
+        justify="flex-start"
+        alignItems="flex-start"
+      >
+        {
+          summerCakesList.map((item) => (
+            <Grid item xs={6} sm={3} key={item.id}>
+              <Pic myArrayItem={item} key={item.id}></Pic>
+            </Grid>
+          ))}
+      </Grid>
+      
+
       <Grid
         container
         item
@@ -93,22 +139,6 @@ export default function ButtonAppBar() {
           </Grid>
         ))}
       </Grid>
-
-      {/* <Grid
-        container
-        spacing={3}
-        style={{ paddingLeft: "1%", paddingTop: "2%" }}
-        direction="row"
-        justify="flex-start"
-        alignItems="flex-start"
-      >
-        {showSpringCake &&
-          springCake.map((item) => (
-            <Grid item xs={6} sm={3} key={item.id}>
-              <Pic myArrayItem={item} key={item.id}></Pic>
-            </Grid>
-          ))}
-      </Grid> */}
     </Grid>
   );
 }

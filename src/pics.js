@@ -34,7 +34,7 @@ const picStyles = makeStyles((theme) => ({
     },
     title: {
       flexGrow: 1,
-      color:LIGHT_YELLOW,
+      color:BROWN,
       fontSize:'13px',
       fontWeight: 700,
       fontFamily: 'Arial',
@@ -43,7 +43,7 @@ const picStyles = makeStyles((theme) => ({
     },
     subtitle: {
       flexGrow: 1,
-      color:LIGHT_YELLOW,
+      color:BROWN,
       fontSize:'12px',
       fontWeight: 500,
       fontFamily: 'Arial',
